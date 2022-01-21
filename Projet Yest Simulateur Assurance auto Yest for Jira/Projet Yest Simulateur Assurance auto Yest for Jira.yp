@@ -12,7 +12,7 @@
       <metadata key="jiraWorkflow_IssueTypeId" value="10100"/>
       <metadata key="jiraWorkflow_UserUrl" value="https://jira.smartesting.com/browse/PROJIRA-254"/>
       <metadata key="jiraWorkflow_WorkflowVersion" value="5"/>
-      <metadata key="jiraWorkflow_Status" value="UP_TO_DATE"/>
+      <metadata key="jiraWorkflow_Status" value="MODIFIED"/>
       <flowElements xsi:type="yest:StartPoint" id="c8ad97017a9811ecaf31ebf1f5f6c5aa" name="début" outgoings="kK1dNhaUyd0vVhitVGJFFn0y10ZvrNmf"/>
       <flowElements xsi:type="yest:Task" id="364e9f707a9911ec889ff9a7f8f66b4d" name="exp2" incomings="YFQ3q9sQwu6gmdNLq1ckmvMSkW4ln3iS" outgoings="ccf25de07a9e11ec9d4cc39a786b7b24"/>
       <flowElements xsi:type="yest:Task" id="c601a2207a9e11ec9d4cc39a786b7b24" name="autre tâche" incomings="ccf25de07a9e11ec9d4cc39a786b7b24" outgoings="cf4d16c07a9e11ec9d4cc39a786b7b24"/>
@@ -253,7 +253,7 @@
       <metadata key="jiraWorkflow_IssueTypeId" value="10100"/>
       <metadata key="jiraWorkflow_UserUrl" value="https://jira.smartesting.com/browse/PROJIRA-256"/>
       <metadata key="jiraWorkflow_WorkflowVersion" value="3"/>
-      <metadata key="jiraWorkflow_Status" value="UP_TO_DATE"/>
+      <metadata key="jiraWorkflow_Status" value="MODIFIED"/>
       <flowElements xsi:type="yest:StartPoint" id="50c167c17a9911ec84fc17ac22993d86" name="début" outgoings="JhRcu5VcsZ3NQaKePIhGHnLEn34jN1rg"/>
       <flowElements xsi:type="yest:CallActivity" id="50ccb2607a9911ec84fc17ac22993d86" name="exp2" incomings="MUsBgsWSmvpC4yomwVN0VtRzqj9oCTgf" subWorkflow="d15a9a007a9e11ec9d4cc39a786b7b24"/>
       <flowElements xsi:type="yest:Task" id="xiJksinyQ6HVHc8vLovLjsRxEkp9h8vd" name="Se connecter" incomings="JhRcu5VcsZ3NQaKePIhGHnLEn34jN1rg" outgoings="MUsBgsWSmvpC4yomwVN0VtRzqj9oCTgf">
@@ -438,7 +438,7 @@
       <metadata key="jiraWorkflow_IssueTypeId" value="10100"/>
       <metadata key="jiraWorkflow_UserUrl" value="https://jira.smartesting.com/browse/PROJIRA-255"/>
       <metadata key="jiraWorkflow_WorkflowVersion" value="3"/>
-      <metadata key="jiraWorkflow_Status" value="UP_TO_DATE"/>
+      <metadata key="jiraWorkflow_Status" value="MODIFIED"/>
       <flowElements xsi:type="yest:StartPoint" id="dbf580c07a9811ecaf31ebf1f5f6c5aa" name="début" outgoings="Sdb0xT8o6HBJYKtxUcDK8eUEVOHDc0Pc"/>
       <flowElements xsi:type="yest:Task" id="zxcQXHo6jejNUad8a5MjF5LNslWRy0mK" name="Se connecter" incomings="Sdb0xT8o6HBJYKtxUcDK8eUEVOHDc0Pc">
         <table>
@@ -582,7 +582,7 @@
       <metadata key="jiraWorkflow_IssueTypeId" value="10100"/>
       <metadata key="jiraWorkflow_UserUrl" value="https://jira.smartesting.com/browse/PROJIRA-253"/>
       <metadata key="jiraWorkflow_WorkflowVersion" value="13"/>
-      <metadata key="jiraWorkflow_Status" value="UP_TO_DATE"/>
+      <metadata key="jiraWorkflow_Status" value="MODIFIED"/>
       <flowElements xsi:type="yest:StartPoint" id="a9b08ba17a9811ecaf31ebf1f5f6c5aa" name="début" outgoings="MBHQxI0sYtz8oqKI3InMHtXRRjCRQwWl"/>
       <flowElements xsi:type="yest:Task" id="iVU9pz8PMWFY2CGsjK7BKfFTgCdVR4qK" name="Se connecter" incomings="MBHQxI0sYtz8oqKI3InMHtXRRjCRQwWl" outgoings="DqMfDcUrqRhfEwWHe0JuCmiNgusIYYol">
         <table>
@@ -2663,12 +2663,12 @@
     <highLevelStep>
       <action>
         <stepElements xsi:type="yest:StepText" content="Se connecter avec un id "/>
-        <stepElements xsi:type="yest:StepField" id="B714ZRrwuAyMPesxtwXlHSd5IAJgruiN" data="n1d7M6DE3dYlWr5S0Y79znYOOOHxttOV"/>
+        <stepElements xsi:type="yest:StepField" id="RAeAsIv6ySzE9srtLoEhe4P5qRP7D5nm" data="n1d7M6DE3dYlWr5S0Y79znYOOOHxttOV"/>
         <stepElements xsi:type="yest:StepText" content=" et un mdp "/>
-        <stepElements xsi:type="yest:StepField" id="wNhKJYL7uGx7MA5igT7qS8s5oJp1DqTG" data="VgW5be3NuiuDsDitl1HPEmGDPq4wQKcz"/>
+        <stepElements xsi:type="yest:StepField" id="Q0tHJSAVBoN12DBVAkkFDuAyOFiIpXAw" data="VgW5be3NuiuDsDitl1HPEmGDPq4wQKcz"/>
       </action>
       <expectedResult>
-        <stepElements xsi:type="yest:StepText" content="Connexion ok"/>
+        <stepElements xsi:type="yest:StepText" content="Connexion ok maj U2"/>
       </expectedResult>
     </highLevelStep>
   </testElements>
