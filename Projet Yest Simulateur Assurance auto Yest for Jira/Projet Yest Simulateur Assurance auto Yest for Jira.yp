@@ -2101,7 +2101,7 @@
         <stepElements xsi:type="yest:StepText" content="Se connecter à SeS"/>
       </action>
       <expectedResult>
-        <stepElements xsi:type="yest:StepText" content="U1 modifie"/>
+        <stepElements xsi:type="yest:StepText" content="U1 modifie encore"/>
       </expectedResult>
     </highLevelStep>
   </testElements>
