@@ -1018,15 +1018,480 @@
     </testElements>
   </subFolders>
   <subFolders name="SeS" id="v7KPuvXHLaoUfgG9HCgBaWO5tOj2DLxA">
+    <testElements xsi:type="yest:Workflow" id="d4e32ce07a9011ec97abfd7169699f07" name="SeS_Vérifier un produit">
+      <metadata key="jiraWorkflow_Key" value="PROJIRA-250"/>
+      <metadata key="jiraWorkflow_Summary" value="SeS_Vérifier un produit"/>
+      <metadata key="jiraWorkflow_ProjectId" value="PROJIRA"/>
+      <metadata key="jiraWorkflow_ProjectName" value="Projet Assurance auto_Elo"/>
+      <metadata key="jiraWorkflow_IssueTypeId" value="10100"/>
+      <metadata key="jiraWorkflow_UserUrl" value="https://jira.smartesting.com/browse/PROJIRA-250"/>
+      <metadata key="jiraWorkflow_Fields" value="{}"/>
+      <metadata key="jiraWorkflow_WorkflowVersion" value="9"/>
+      <metadata key="jiraWorkflow_WorkflowContent" value="{&quot;id&quot;:&quot;d4e32ce07a9011ec97abfd7169699f07&quot;,&quot;yest4JiraVersion&quot;:2,&quot;groups&quot;:[],&quot;nodes&quot;:[{&quot;type&quot;:&quot;start&quot;,&quot;id&quot;:&quot;6b31d5317a9011ec97abfd7169699f07&quot;,&quot;name&quot;:&quot;début&quot;,&quot;bounds&quot;:[424,68,31,31],&quot;label&quot;:{&quot;bounds&quot;:[374,68,40,20]}},{&quot;type&quot;:&quot;task&quot;,&quot;id&quot;:&quot;6b3fdef07a9011ec97abfd7169699f07&quot;,&quot;name&quot;:&quot;Accéder à la catégorie de produit&quot;,&quot;table&quot;:{&quot;columns&quot;:[{&quot;id&quot;:&quot;xsILHYEU3ieAz1WO8grpZ6LpnRJAx8sD&quot;,&quot;kind&quot;:&quot;STEP&quot;}],&quot;decisions&quot;:[{&quot;id&quot;:&quot;WveDofBJibKDBZ0x9kFDeVFDBeKILDPs&quot;,&quot;cells&quot;:{&quot;xsILHYEU3ieAz1WO8grpZ6LpnRJAx8sD&quot;:{&quot;kind&quot;:&quot;operation&quot;,&quot;operations&quot;:[{&quot;id&quot;:&quot;P8aRGJMjeSbmoq22LguJvJCIe1pZ7F5O&quot;,&quot;highLevel&quot;:{&quot;action&quot;:{&quot;items&quot;:[{&quot;kind&quot;:&quot;text&quot;,&quot;value&quot;:&quot;Accéder à la catégorie de produit&quot;}]},&quot;result&quot;:{&quot;items&quot;:[{&quot;kind&quot;:&quot;text&quot;,&quot;value&quot;:&quot;La catégorie est affichée&quot;}]}}}]}}}]},&quot;bounds&quot;:[352,188,175,50]},{&quot;type&quot;:&quot;task&quot;,&quot;id&quot;:&quot;b8e901407a9011ec97abfd7169699f07&quot;,&quot;name&quot;:&quot;Cliquer sur un produit pour y accéder&quot;,&quot;table&quot;:{&quot;columns&quot;:[{&quot;id&quot;:&quot;BAO89APWu3W8ay60J2Q3CiNACdffrGdE&quot;,&quot;kind&quot;:&quot;STEP&quot;}],&quot;decisions&quot;:[{&quot;id&quot;:&quot;ZuQPU0Rz4oH0Cm721wXKTOwcKB6wKPDX&quot;,&quot;cells&quot;:{&quot;BAO89APWu3W8ay60J2Q3CiNACdffrGdE&quot;:{&quot;kind&quot;:&quot;operation&quot;,&quot;operations&quot;:[{&quot;id&quot;:&quot;UMvePzInDl3Ob4AlyJ7y27YidmrHCFP9&quot;,&quot;highLevel&quot;:{&quot;action&quot;:{&quot;items&quot;:[{&quot;kind&quot;:&quot;text&quot;,&quot;value&quot;:&quot;Cliquer sur un produit pour y accéder&quot;}]},&quot;result&quot;:{&quot;items&quot;:[]}}}]}}}]},&quot;bounds&quot;:[358,271,163,50]},{&quot;type&quot;:&quot;task&quot;,&quot;id&quot;:&quot;c6b961c07a9011ec97abfd7169699f07&quot;,&quot;name&quot;:&quot;Vérifier les informations du produit&quot;,&quot;table&quot;:{&quot;columns&quot;:[{&quot;id&quot;:&quot;189zZhhKuB0Uuj8EvMYImdeIgVNdpkkx&quot;,&quot;kind&quot;:&quot;STEP&quot;}],&quot;decisions&quot;:[{&quot;id&quot;:&quot;4Azsepvc0VaOUjHvBEeFORPkVxb6oFq2&quot;,&quot;cells&quot;:{&quot;189zZhhKuB0Uuj8EvMYImdeIgVNdpkkx&quot;:{&quot;kind&quot;:&quot;operation&quot;,&quot;operations&quot;:[{&quot;id&quot;:&quot;ivo5KBfj3WiMLw5RBy7gMtaV0BSViXN7&quot;,&quot;highLevel&quot;:{&quot;action&quot;:{&quot;items&quot;:[{&quot;kind&quot;:&quot;text&quot;,&quot;value&quot;:&quot;Vérifier les informations du produit&quot;}]},&quot;result&quot;:{&quot;items&quot;:[]}}}]}}}]},&quot;bounds&quot;:[359,360,156,50]},{&quot;type&quot;:&quot;end&quot;,&quot;id&quot;:&quot;6b424ff07a9011ec97abfd7169699f07&quot;,&quot;bounds&quot;:[421,500,31,31]},{&quot;type&quot;:&quot;task&quot;,&quot;id&quot;:&quot;28QRL1BWycPFc96sNgRiqEguGRKZ6Kp7&quot;,&quot;name&quot;:&quot;Aller sur la page d'accueil&quot;,&quot;table&quot;:{&quot;columns&quot;:[{&quot;id&quot;:&quot;1ApGzRYr6pehFZlWnm24QaQQ6cEKJv4U&quot;,&quot;kind&quot;:&quot;STEP&quot;}],&quot;decisions&quot;:[{&quot;id&quot;:&quot;UFygLVDsWNmjRDSiSJBUZuEBT04KJFpm&quot;,&quot;cells&quot;:{&quot;1ApGzRYr6pehFZlWnm24QaQQ6cEKJv4U&quot;:{&quot;kind&quot;:&quot;operation&quot;,&quot;operations&quot;:[{&quot;id&quot;:&quot;USrylCS1zmjhomhmomwjNOeSoWOTnC4k&quot;,&quot;highLevel&quot;:{&quot;action&quot;:{&quot;items&quot;:[{&quot;kind&quot;:&quot;text&quot;,&quot;value&quot;:&quot;Aller sur la page d'accueil&quot;}]},&quot;result&quot;:{&quot;items&quot;:[]}}}]}}}]},&quot;bounds&quot;:[387,431,100,50]},{&quot;type&quot;:&quot;task&quot;,&quot;linkedIssues&quot;:{&quot;32639&quot;:{&quot;key&quot;:&quot;PROJIRA-247&quot;,&quot;summary&quot;:&quot;SeS_Connexion à SeS&quot;,&quot;baseUrl&quot;:&quot;https://jira.smartesting.com&quot;}},&quot;id&quot;:&quot;CPpNxVOtTsaVpd7pMPX9k9fKtOfBnTMZ&quot;,&quot;name&quot;:&quot;Se connecter à SeS&quot;,&quot;table&quot;:{&quot;columns&quot;:[{&quot;id&quot;:&quot;GcdE4SkJnGoU1ulyRvRBU02FC9FRWAN8&quot;,&quot;kind&quot;:&quot;STEP&quot;}],&quot;decisions&quot;:[{&quot;id&quot;:&quot;9dGuIA57VTCn2OYIEojbod9ZMxBd8hB0&quot;,&quot;cells&quot;:{&quot;GcdE4SkJnGoU1ulyRvRBU02FC9FRWAN8&quot;:{&quot;kind&quot;:&quot;operation&quot;,&quot;operations&quot;:[{&quot;id&quot;:&quot;zlQNT8Tm8tzQqOxFvQRCeWsfmJx9HHyh&quot;,&quot;highLevel&quot;:{&quot;action&quot;:{&quot;items&quot;:[{&quot;kind&quot;:&quot;text&quot;,&quot;value&quot;:&quot;Se connecter à SeS&quot;}]},&quot;result&quot;:{&quot;items&quot;:[]}}}]}}}]},&quot;bounds&quot;:[369,114,141,50]}],&quot;connections&quot;:[{&quot;id&quot;:&quot;c1e56b807a9011ec97abfd7169699f07&quot;,&quot;source&quot;:&quot;6b3fdef07a9011ec97abfd7169699f07&quot;,&quot;target&quot;:&quot;b8e901407a9011ec97abfd7169699f07&quot;},{&quot;id&quot;:&quot;cf577f607a9011ec97abfd7169699f07&quot;,&quot;source&quot;:&quot;b8e901407a9011ec97abfd7169699f07&quot;,&quot;target&quot;:&quot;c6b961c07a9011ec97abfd7169699f07&quot;},{&quot;id&quot;:&quot;4xsMr8ZbV3d9rqxPVzoZTdeIwKqZAnUT&quot;,&quot;source&quot;:&quot;c6b961c07a9011ec97abfd7169699f07&quot;,&quot;target&quot;:&quot;28QRL1BWycPFc96sNgRiqEguGRKZ6Kp7&quot;},{&quot;id&quot;:&quot;5IfkllqMxtmKyiSEpRn5TaWdlbkRKKkm&quot;,&quot;source&quot;:&quot;28QRL1BWycPFc96sNgRiqEguGRKZ6Kp7&quot;,&quot;target&quot;:&quot;6b424ff07a9011ec97abfd7169699f07&quot;},{&quot;id&quot;:&quot;WZdIOVo4yAmyayTp00Bzx9mTZyPJZIHX&quot;,&quot;source&quot;:&quot;6b31d5317a9011ec97abfd7169699f07&quot;,&quot;target&quot;:&quot;CPpNxVOtTsaVpd7pMPX9k9fKtOfBnTMZ&quot;},{&quot;id&quot;:&quot;KgLaZO79clb17290cLBV2Bx7i3Id1d7A&quot;,&quot;source&quot;:&quot;CPpNxVOtTsaVpd7pMPX9k9fKtOfBnTMZ&quot;,&quot;target&quot;:&quot;6b3fdef07a9011ec97abfd7169699f07&quot;}]}"/>
+      <metadata key="jiraWorkflow_Status" value="MODIFIED"/>
+      <flowElements xsi:type="yest:StartPoint" id="6b31d5317a9011ec97abfd7169699f07" name="début" outgoings="WZdIOVo4yAmyayTp00Bzx9mTZyPJZIHX"/>
+      <flowElements xsi:type="yest:Task" id="6b3fdef07a9011ec97abfd7169699f07" name="Accéder à la catégorie de produit" incomings="KgLaZO79clb17290cLBV2Bx7i3Id1d7A" outgoings="c1e56b807a9011ec97abfd7169699f07">
+        <table>
+          <columns xsi:type="yest:OperationColumn" id="xsILHYEU3ieAz1WO8grpZ6LpnRJAx8sD"/>
+          <decisions id="WveDofBJibKDBZ0x9kFDeVFDBeKILDPs">
+            <cells key="xsILHYEU3ieAz1WO8grpZ6LpnRJAx8sD">
+              <value xsi:type="yest:OperationCell">
+                <operations reference="P8aRGJMjeSbmoq22LguJvJCIe1pZ7F5O"/>
+              </value>
+            </cells>
+          </decisions>
+        </table>
+      </flowElements>
+      <flowElements xsi:type="yest:Task" id="b8e901407a9011ec97abfd7169699f07" name="Cliquer sur un produit pour y accéder" incomings="c1e56b807a9011ec97abfd7169699f07" outgoings="cf577f607a9011ec97abfd7169699f07">
+        <table>
+          <columns xsi:type="yest:OperationColumn" id="BAO89APWu3W8ay60J2Q3CiNACdffrGdE"/>
+          <decisions id="ZuQPU0Rz4oH0Cm721wXKTOwcKB6wKPDX">
+            <cells key="BAO89APWu3W8ay60J2Q3CiNACdffrGdE">
+              <value xsi:type="yest:OperationCell">
+                <operations reference="UMvePzInDl3Ob4AlyJ7y27YidmrHCFP9"/>
+              </value>
+            </cells>
+          </decisions>
+        </table>
+      </flowElements>
+      <flowElements xsi:type="yest:Task" id="c6b961c07a9011ec97abfd7169699f07" name="Vérifier les informations du produit" incomings="cf577f607a9011ec97abfd7169699f07" outgoings="4xsMr8ZbV3d9rqxPVzoZTdeIwKqZAnUT">
+        <table>
+          <columns xsi:type="yest:OperationColumn" id="189zZhhKuB0Uuj8EvMYImdeIgVNdpkkx"/>
+          <decisions id="4Azsepvc0VaOUjHvBEeFORPkVxb6oFq2">
+            <cells key="189zZhhKuB0Uuj8EvMYImdeIgVNdpkkx">
+              <value xsi:type="yest:OperationCell">
+                <operations reference="ivo5KBfj3WiMLw5RBy7gMtaV0BSViXN7"/>
+              </value>
+            </cells>
+          </decisions>
+        </table>
+      </flowElements>
+      <flowElements xsi:type="yest:EndPoint" id="6b424ff07a9011ec97abfd7169699f07" name="" incomings="5IfkllqMxtmKyiSEpRn5TaWdlbkRKKkm"/>
+      <flowElements xsi:type="yest:Task" id="28QRL1BWycPFc96sNgRiqEguGRKZ6Kp7" name="Aller sur la page d'accueil" incomings="4xsMr8ZbV3d9rqxPVzoZTdeIwKqZAnUT" outgoings="5IfkllqMxtmKyiSEpRn5TaWdlbkRKKkm">
+        <table>
+          <columns xsi:type="yest:OperationColumn" id="1ApGzRYr6pehFZlWnm24QaQQ6cEKJv4U"/>
+          <decisions id="UFygLVDsWNmjRDSiSJBUZuEBT04KJFpm">
+            <cells key="1ApGzRYr6pehFZlWnm24QaQQ6cEKJv4U">
+              <value xsi:type="yest:OperationCell">
+                <operations reference="USrylCS1zmjhomhmomwjNOeSoWOTnC4k"/>
+              </value>
+            </cells>
+          </decisions>
+        </table>
+      </flowElements>
+      <flowElements xsi:type="yest:Task" id="CPpNxVOtTsaVpd7pMPX9k9fKtOfBnTMZ" name="Se connecter à SeS" incomings="WZdIOVo4yAmyayTp00Bzx9mTZyPJZIHX" outgoings="KgLaZO79clb17290cLBV2Bx7i3Id1d7A">
+        <metadata key="#!Jira!#LinkedIssues" value="{&quot;32639&quot;:{&quot;key&quot;:&quot;PROJIRA-247&quot;,&quot;summary&quot;:&quot;SeS_Connexion à SeS&quot;,&quot;baseUrl&quot;:&quot;https://jira.smartesting.com&quot;}}"/>
+        <table>
+          <columns xsi:type="yest:OperationColumn" id="GcdE4SkJnGoU1ulyRvRBU02FC9FRWAN8"/>
+          <decisions id="9dGuIA57VTCn2OYIEojbod9ZMxBd8hB0">
+            <cells key="GcdE4SkJnGoU1ulyRvRBU02FC9FRWAN8">
+              <value xsi:type="yest:OperationCell">
+                <operations reference="KuPjboR1if1VyGPmUNzLEDr0iNvn9fUT"/>
+              </value>
+            </cells>
+          </decisions>
+        </table>
+      </flowElements>
+      <flowElements xsi:type="yest:SequenceFlow" id="c1e56b807a9011ec97abfd7169699f07" name="" target="b8e901407a9011ec97abfd7169699f07" source="6b3fdef07a9011ec97abfd7169699f07"/>
+      <flowElements xsi:type="yest:SequenceFlow" id="cf577f607a9011ec97abfd7169699f07" name="" target="c6b961c07a9011ec97abfd7169699f07" source="b8e901407a9011ec97abfd7169699f07"/>
+      <flowElements xsi:type="yest:SequenceFlow" id="4xsMr8ZbV3d9rqxPVzoZTdeIwKqZAnUT" name="" target="28QRL1BWycPFc96sNgRiqEguGRKZ6Kp7" source="c6b961c07a9011ec97abfd7169699f07"/>
+      <flowElements xsi:type="yest:SequenceFlow" id="5IfkllqMxtmKyiSEpRn5TaWdlbkRKKkm" name="" target="6b424ff07a9011ec97abfd7169699f07" source="28QRL1BWycPFc96sNgRiqEguGRKZ6Kp7"/>
+      <flowElements xsi:type="yest:SequenceFlow" id="WZdIOVo4yAmyayTp00Bzx9mTZyPJZIHX" name="" target="CPpNxVOtTsaVpd7pMPX9k9fKtOfBnTMZ" source="6b31d5317a9011ec97abfd7169699f07"/>
+      <flowElements xsi:type="yest:SequenceFlow" id="KgLaZO79clb17290cLBV2Bx7i3Id1d7A" name="" target="6b3fdef07a9011ec97abfd7169699f07" source="CPpNxVOtTsaVpd7pMPX9k9fKtOfBnTMZ"/>
+      <diagram visible="true" gridUnit="-1" diagramTypeId="com.smartesting.metamodel.WorkflowDiagram" name="SeS_Vérifier un produit" pictogramLinks="//@subFolders.1/@testElements.0/@diagram/@children.0/@link //@subFolders.1/@testElements.0/@diagram/@children.2/@link //@subFolders.1/@testElements.0/@diagram/@children.3/@link //@subFolders.1/@testElements.0/@diagram/@children.4/@link //@subFolders.1/@testElements.0/@diagram/@children.5/@link //@subFolders.1/@testElements.0/@diagram/@children.6/@link //@subFolders.1/@testElements.0/@diagram/@children.7/@link //@subFolders.1/@testElements.0/@diagram/@connections.0/@link //@subFolders.1/@testElements.0/@diagram/@connections.1/@link //@subFolders.1/@testElements.0/@diagram/@connections.2/@link //@subFolders.1/@testElements.0/@diagram/@connections.3/@link //@subFolders.1/@testElements.0/@diagram/@connections.4/@link //@subFolders.1/@testElements.0/@diagram/@connections.5/@link" version="0.16.0">
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="//@subFolders.1/@testElements.0/@diagram/@styles.0/@renderingStyle/@adaptedGradientColoredAreas/@adaptedGradientColoredAreas.0/@gradientColor.0/@end/@color" foreground="//@subFolders.1/@testElements.0/@diagram/@colors.0" lineWidth="1" transparency="0.0" width="1000" height="1000"/>
+        <children xsi:type="yest:StartPointShape" visible="true" active="true" flowNode="6b31d5317a9011ec97abfd7169699f07" labelShape="//@subFolders.1/@testElements.0/@diagram/@children.1">
+          <graphicsAlgorithm xsi:type="al:Ellipse" foreground="//@subFolders.1/@testElements.0/@diagram/@colors.1" lineWidth="2" transparency="0.0" width="31" height="31" x="424" y="68" style="//@subFolders.1/@testElements.0/@diagram/@styles.0"/>
+          <link businessObjects="6b31d5317a9011ec97abfd7169699f07"/>
+          <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@subFolders.1/@testElements.0/@diagram/@connections.4"/>
+        </children>
+        <children xsi:type="yest:LabelShape" visible="true" active="true" text="//@subFolders.1/@testElements.0/@diagram/@children.1/@children.0/@graphicsAlgorithm" labelled="//@subFolders.1/@testElements.0/@diagram/@children.0">
+          <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="40" height="20" x="374" y="68"/>
+          <children xsi:type="pi:ContainerShape" visible="true">
+            <graphicsAlgorithm xsi:type="al:Text" foreground="//@subFolders.1/@testElements.0/@diagram/@colors.2" lineWidth="1" filled="false" transparency="0.0" width="40" height="20" font="//@subFolders.1/@testElements.0/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="début"/>
+          </children>
+        </children>
+        <children xsi:type="yest:TaskShape" visible="true" active="true" text="//@subFolders.1/@testElements.0/@diagram/@children.2/@children.0/@graphicsAlgorithm" flowNode="6b3fdef07a9011ec97abfd7169699f07">
+          <graphicsAlgorithm xsi:type="al:RoundedRectangle" foreground="//@subFolders.1/@testElements.0/@diagram/@colors.3" lineWidth="2" filled="true" transparency="0.0" width="175" height="50" x="352" y="188" style="//@subFolders.1/@testElements.0/@diagram/@styles.1" cornerHeight="20" cornerWidth="20"/>
+          <link businessObjects="6b3fdef07a9011ec97abfd7169699f07"/>
+          <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@subFolders.1/@testElements.0/@diagram/@connections.0" incomingConnections="//@subFolders.1/@testElements.0/@diagram/@connections.5"/>
+          <children xsi:type="pi:ContainerShape" visible="true">
+            <graphicsAlgorithm xsi:type="al:Text" foreground="//@subFolders.1/@testElements.0/@diagram/@colors.2" lineWidth="1" filled="false" transparency="0.0" width="161" height="36" x="7" y="7" font="//@subFolders.1/@testElements.0/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Accéder à la catégorie de&#xD;&#xA;produit"/>
+          </children>
+        </children>
+        <children xsi:type="yest:TaskShape" visible="true" active="true" text="//@subFolders.1/@testElements.0/@diagram/@children.3/@children.0/@graphicsAlgorithm" flowNode="b8e901407a9011ec97abfd7169699f07">
+          <graphicsAlgorithm xsi:type="al:RoundedRectangle" foreground="//@subFolders.1/@testElements.0/@diagram/@colors.3" lineWidth="2" filled="true" transparency="0.0" width="163" height="50" x="358" y="271" style="//@subFolders.1/@testElements.0/@diagram/@styles.2" cornerHeight="20" cornerWidth="20"/>
+          <link businessObjects="b8e901407a9011ec97abfd7169699f07"/>
+          <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@subFolders.1/@testElements.0/@diagram/@connections.1" incomingConnections="//@subFolders.1/@testElements.0/@diagram/@connections.0"/>
+          <children xsi:type="pi:ContainerShape" visible="true">
+            <graphicsAlgorithm xsi:type="al:Text" foreground="//@subFolders.1/@testElements.0/@diagram/@colors.2" lineWidth="1" filled="false" transparency="0.0" width="149" height="36" x="7" y="7" font="//@subFolders.1/@testElements.0/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Cliquer sur un produit pour&#xD;&#xA;y accéder"/>
+          </children>
+        </children>
+        <children xsi:type="yest:TaskShape" visible="true" active="true" text="//@subFolders.1/@testElements.0/@diagram/@children.4/@children.0/@graphicsAlgorithm" flowNode="c6b961c07a9011ec97abfd7169699f07">
+          <graphicsAlgorithm xsi:type="al:RoundedRectangle" foreground="//@subFolders.1/@testElements.0/@diagram/@colors.3" lineWidth="2" filled="true" transparency="0.0" width="156" height="50" x="359" y="360" style="//@subFolders.1/@testElements.0/@diagram/@styles.3" cornerHeight="20" cornerWidth="20"/>
+          <link businessObjects="c6b961c07a9011ec97abfd7169699f07"/>
+          <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@subFolders.1/@testElements.0/@diagram/@connections.2" incomingConnections="//@subFolders.1/@testElements.0/@diagram/@connections.1"/>
+          <children xsi:type="pi:ContainerShape" visible="true">
+            <graphicsAlgorithm xsi:type="al:Text" foreground="//@subFolders.1/@testElements.0/@diagram/@colors.2" lineWidth="1" filled="false" transparency="0.0" width="142" height="36" x="7" y="7" font="//@subFolders.1/@testElements.0/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Vérifier les informations du&#xD;&#xA;produit"/>
+          </children>
+        </children>
+        <children xsi:type="yest:EndPointShape" visible="true" active="true" flowNode="6b424ff07a9011ec97abfd7169699f07">
+          <graphicsAlgorithm xsi:type="al:Ellipse" foreground="//@subFolders.1/@testElements.0/@diagram/@colors.4" lineWidth="4" transparency="0.0" width="31" height="31" x="421" y="500" style="//@subFolders.1/@testElements.0/@diagram/@styles.4"/>
+          <link businessObjects="6b424ff07a9011ec97abfd7169699f07"/>
+          <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@subFolders.1/@testElements.0/@diagram/@connections.3"/>
+        </children>
+        <children xsi:type="yest:TaskShape" visible="true" active="true" text="//@subFolders.1/@testElements.0/@diagram/@children.6/@children.0/@graphicsAlgorithm" flowNode="28QRL1BWycPFc96sNgRiqEguGRKZ6Kp7">
+          <graphicsAlgorithm xsi:type="al:RoundedRectangle" foreground="//@subFolders.1/@testElements.0/@diagram/@colors.3" lineWidth="2" filled="true" transparency="0.0" width="100" height="50" x="387" y="431" style="//@subFolders.1/@testElements.0/@diagram/@styles.5" cornerHeight="20" cornerWidth="20"/>
+          <link businessObjects="28QRL1BWycPFc96sNgRiqEguGRKZ6Kp7"/>
+          <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@subFolders.1/@testElements.0/@diagram/@connections.3" incomingConnections="//@subFolders.1/@testElements.0/@diagram/@connections.2"/>
+          <children xsi:type="pi:ContainerShape" visible="true">
+            <graphicsAlgorithm xsi:type="al:Text" foreground="//@subFolders.1/@testElements.0/@diagram/@colors.2" lineWidth="1" filled="false" transparency="0.0" width="86" height="36" x="7" y="7" font="//@subFolders.1/@testElements.0/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Aller sur la page&#xD;&#xA;d'accueil"/>
+          </children>
+        </children>
+        <children xsi:type="yest:TaskShape" visible="true" active="true" text="//@subFolders.1/@testElements.0/@diagram/@children.7/@children.0/@graphicsAlgorithm" flowNode="CPpNxVOtTsaVpd7pMPX9k9fKtOfBnTMZ">
+          <graphicsAlgorithm xsi:type="al:RoundedRectangle" foreground="//@subFolders.1/@testElements.0/@diagram/@colors.3" lineWidth="2" filled="true" transparency="0.0" width="141" height="50" x="369" y="114" style="//@subFolders.1/@testElements.0/@diagram/@styles.6" cornerHeight="20" cornerWidth="20"/>
+          <link businessObjects="CPpNxVOtTsaVpd7pMPX9k9fKtOfBnTMZ"/>
+          <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@subFolders.1/@testElements.0/@diagram/@connections.5" incomingConnections="//@subFolders.1/@testElements.0/@diagram/@connections.4"/>
+          <children xsi:type="pi:ContainerShape" visible="true">
+            <graphicsAlgorithm xsi:type="al:Text" foreground="//@subFolders.1/@testElements.0/@diagram/@colors.2" lineWidth="1" filled="false" transparency="0.0" width="127" height="36" x="7" y="7" font="//@subFolders.1/@testElements.0/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Se connecter à SeS"/>
+          </children>
+        </children>
+        <styles filled="true" lineVisible="true" id="shape-bg-green-id">
+          <renderingStyle>
+            <adaptedGradientColoredAreas definedStyleId="shape-bg-green-id" gradientType="0">
+              <adaptedGradientColoredAreas styleAdaption="0">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="188" green="221" blue="186"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="255" green="255" blue="255"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+              <adaptedGradientColoredAreas styleAdaption="1">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="188" green="221" blue="186"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="188" green="221" blue="186"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+              <adaptedGradientColoredAreas styleAdaption="2">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="188" green="221" blue="186"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="188" green="221" blue="186"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+            </adaptedGradientColoredAreas>
+          </renderingStyle>
+        </styles>
+        <styles filled="true" lineVisible="true" id="shape-bg-blue-id">
+          <renderingStyle>
+            <adaptedGradientColoredAreas definedStyleId="shape-bg-blue-id" gradientType="0">
+              <adaptedGradientColoredAreas styleAdaption="0">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="255" green="255" blue="255"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+              <adaptedGradientColoredAreas styleAdaption="1">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+              <adaptedGradientColoredAreas styleAdaption="2">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+            </adaptedGradientColoredAreas>
+          </renderingStyle>
+        </styles>
+        <styles filled="true" lineVisible="true" id="shape-bg-blue-id">
+          <renderingStyle>
+            <adaptedGradientColoredAreas definedStyleId="shape-bg-blue-id" gradientType="0">
+              <adaptedGradientColoredAreas styleAdaption="0">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="255" green="255" blue="255"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+              <adaptedGradientColoredAreas styleAdaption="1">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+              <adaptedGradientColoredAreas styleAdaption="2">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+            </adaptedGradientColoredAreas>
+          </renderingStyle>
+        </styles>
+        <styles filled="true" lineVisible="true" id="shape-bg-blue-id">
+          <renderingStyle>
+            <adaptedGradientColoredAreas definedStyleId="shape-bg-blue-id" gradientType="0">
+              <adaptedGradientColoredAreas styleAdaption="0">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="255" green="255" blue="255"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+              <adaptedGradientColoredAreas styleAdaption="1">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+              <adaptedGradientColoredAreas styleAdaption="2">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+            </adaptedGradientColoredAreas>
+          </renderingStyle>
+        </styles>
+        <styles filled="true" lineVisible="true" id="shape-bg-red-id">
+          <renderingStyle>
+            <adaptedGradientColoredAreas definedStyleId="shape-bg-red-id" gradientType="0">
+              <adaptedGradientColoredAreas styleAdaption="0">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="255" green="144" blue="158"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="255" green="255" blue="255"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+              <adaptedGradientColoredAreas styleAdaption="1">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="255" green="144" blue="158"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="255" green="144" blue="158"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+              <adaptedGradientColoredAreas styleAdaption="2">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="255" green="144" blue="158"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="255" green="144" blue="158"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+            </adaptedGradientColoredAreas>
+          </renderingStyle>
+        </styles>
+        <styles filled="true" lineVisible="true" id="shape-bg-blue-id">
+          <renderingStyle>
+            <adaptedGradientColoredAreas definedStyleId="shape-bg-blue-id" gradientType="0">
+              <adaptedGradientColoredAreas styleAdaption="0">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="255" green="255" blue="255"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+              <adaptedGradientColoredAreas styleAdaption="1">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+              <adaptedGradientColoredAreas styleAdaption="2">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+            </adaptedGradientColoredAreas>
+          </renderingStyle>
+        </styles>
+        <styles filled="true" lineVisible="true" id="shape-bg-blue-id">
+          <renderingStyle>
+            <adaptedGradientColoredAreas definedStyleId="shape-bg-blue-id" gradientType="0">
+              <adaptedGradientColoredAreas styleAdaption="0">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="255" green="255" blue="255"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+              <adaptedGradientColoredAreas styleAdaption="1">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+              <adaptedGradientColoredAreas styleAdaption="2">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+            </adaptedGradientColoredAreas>
+          </renderingStyle>
+        </styles>
+        <connections xsi:type="yest:SequenceFlowConnection" visible="true" active="true" start="//@subFolders.1/@testElements.0/@diagram/@children.2/@anchors.0" end="//@subFolders.1/@testElements.0/@diagram/@children.3/@anchors.0" sequenceFlow="c1e56b807a9011ec97abfd7169699f07">
+          <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@subFolders.1/@testElements.0/@diagram/@colors.2" lineWidth="1" lineStyle="UNSPECIFIED"/>
+          <link businessObjects="c1e56b807a9011ec97abfd7169699f07"/>
+          <connectionDecorators visible="true" locationRelative="true" location="1.0">
+            <graphicsAlgorithm xsi:type="al:Polygon" background="//@subFolders.1/@testElements.0/@diagram/@colors.2" foreground="//@subFolders.1/@testElements.0/@diagram/@colors.2" lineWidth="1" filled="true" transparency="0.0">
+              <points x="-6" y="3"/>
+              <points x="1"/>
+              <points x="-6" y="-3"/>
+            </graphicsAlgorithm>
+          </connectionDecorators>
+        </connections>
+        <connections xsi:type="yest:SequenceFlowConnection" visible="true" active="true" start="//@subFolders.1/@testElements.0/@diagram/@children.3/@anchors.0" end="//@subFolders.1/@testElements.0/@diagram/@children.4/@anchors.0" sequenceFlow="cf577f607a9011ec97abfd7169699f07">
+          <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@subFolders.1/@testElements.0/@diagram/@colors.2" lineWidth="1" lineStyle="UNSPECIFIED"/>
+          <link businessObjects="cf577f607a9011ec97abfd7169699f07"/>
+          <connectionDecorators visible="true" locationRelative="true" location="1.0">
+            <graphicsAlgorithm xsi:type="al:Polygon" background="//@subFolders.1/@testElements.0/@diagram/@colors.2" foreground="//@subFolders.1/@testElements.0/@diagram/@colors.2" lineWidth="1" filled="true" transparency="0.0">
+              <points x="-6" y="3"/>
+              <points x="1"/>
+              <points x="-6" y="-3"/>
+            </graphicsAlgorithm>
+          </connectionDecorators>
+        </connections>
+        <connections xsi:type="yest:SequenceFlowConnection" visible="true" active="true" start="//@subFolders.1/@testElements.0/@diagram/@children.4/@anchors.0" end="//@subFolders.1/@testElements.0/@diagram/@children.6/@anchors.0" sequenceFlow="4xsMr8ZbV3d9rqxPVzoZTdeIwKqZAnUT">
+          <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@subFolders.1/@testElements.0/@diagram/@colors.2" lineWidth="1" lineStyle="UNSPECIFIED"/>
+          <link businessObjects="4xsMr8ZbV3d9rqxPVzoZTdeIwKqZAnUT"/>
+          <connectionDecorators visible="true" locationRelative="true" location="1.0">
+            <graphicsAlgorithm xsi:type="al:Polygon" background="//@subFolders.1/@testElements.0/@diagram/@colors.2" foreground="//@subFolders.1/@testElements.0/@diagram/@colors.2" lineWidth="1" filled="true" transparency="0.0">
+              <points x="-6" y="3"/>
+              <points x="1"/>
+              <points x="-6" y="-3"/>
+            </graphicsAlgorithm>
+          </connectionDecorators>
+        </connections>
+        <connections xsi:type="yest:SequenceFlowConnection" visible="true" active="true" start="//@subFolders.1/@testElements.0/@diagram/@children.6/@anchors.0" end="//@subFolders.1/@testElements.0/@diagram/@children.5/@anchors.0" sequenceFlow="5IfkllqMxtmKyiSEpRn5TaWdlbkRKKkm">
+          <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@subFolders.1/@testElements.0/@diagram/@colors.2" lineWidth="1" lineStyle="UNSPECIFIED"/>
+          <link businessObjects="5IfkllqMxtmKyiSEpRn5TaWdlbkRKKkm"/>
+          <connectionDecorators visible="true" locationRelative="true" location="1.0">
+            <graphicsAlgorithm xsi:type="al:Polygon" background="//@subFolders.1/@testElements.0/@diagram/@colors.2" foreground="//@subFolders.1/@testElements.0/@diagram/@colors.2" lineWidth="1" filled="true" transparency="0.0">
+              <points x="-6" y="3"/>
+              <points x="1"/>
+              <points x="-6" y="-3"/>
+            </graphicsAlgorithm>
+          </connectionDecorators>
+        </connections>
+        <connections xsi:type="yest:SequenceFlowConnection" visible="true" active="true" start="//@subFolders.1/@testElements.0/@diagram/@children.0/@anchors.0" end="//@subFolders.1/@testElements.0/@diagram/@children.7/@anchors.0" sequenceFlow="WZdIOVo4yAmyayTp00Bzx9mTZyPJZIHX">
+          <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@subFolders.1/@testElements.0/@diagram/@colors.2" lineWidth="1" lineStyle="UNSPECIFIED"/>
+          <link businessObjects="WZdIOVo4yAmyayTp00Bzx9mTZyPJZIHX"/>
+          <connectionDecorators visible="true" locationRelative="true" location="1.0">
+            <graphicsAlgorithm xsi:type="al:Polygon" background="//@subFolders.1/@testElements.0/@diagram/@colors.2" foreground="//@subFolders.1/@testElements.0/@diagram/@colors.2" lineWidth="1" filled="true" transparency="0.0">
+              <points x="-6" y="3"/>
+              <points x="1"/>
+              <points x="-6" y="-3"/>
+            </graphicsAlgorithm>
+          </connectionDecorators>
+        </connections>
+        <connections xsi:type="yest:SequenceFlowConnection" visible="true" active="true" start="//@subFolders.1/@testElements.0/@diagram/@children.7/@anchors.0" end="//@subFolders.1/@testElements.0/@diagram/@children.2/@anchors.0" sequenceFlow="KgLaZO79clb17290cLBV2Bx7i3Id1d7A">
+          <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@subFolders.1/@testElements.0/@diagram/@colors.2" lineWidth="1" lineStyle="UNSPECIFIED"/>
+          <link businessObjects="KgLaZO79clb17290cLBV2Bx7i3Id1d7A"/>
+          <connectionDecorators visible="true" locationRelative="true" location="1.0">
+            <graphicsAlgorithm xsi:type="al:Polygon" background="//@subFolders.1/@testElements.0/@diagram/@colors.2" foreground="//@subFolders.1/@testElements.0/@diagram/@colors.2" lineWidth="1" filled="true" transparency="0.0">
+              <points x="-6" y="3"/>
+              <points x="1"/>
+              <points x="-6" y="-3"/>
+            </graphicsAlgorithm>
+          </connectionDecorators>
+        </connections>
+        <colors red="227" green="238" blue="249"/>
+        <colors red="164" green="193" blue="162"/>
+        <colors red="51" green="51" blue="51"/>
+        <colors red="174" green="198" blue="207"/>
+        <colors red="239" green="126" blue="138"/>
+        <fonts name="Segoe UI" size="9"/>
+      </diagram>
+    </testElements>
     <testElements xsi:type="yest:Workflow" id="4e9125d07a8f11ecbe198f212798e408" name="SeS_Vérifier les menus de SeS">
       <metadata key="jiraWorkflow_Key" value="PROJIRA-248"/>
-      <metadata key="jiraWorkflow_WorkflowContent" value="{&quot;id&quot;:&quot;4e9125d07a8f11ecbe198f212798e408&quot;,&quot;yest4JiraVersion&quot;:2,&quot;groups&quot;:[],&quot;nodes&quot;:[{&quot;type&quot;:&quot;start&quot;,&quot;id&quot;:&quot;cc27caa17a8d11ecbe198f212798e408&quot;,&quot;name&quot;:&quot;début&quot;,&quot;bounds&quot;:[150,100,31,31],&quot;label&quot;:{&quot;bounds&quot;:[100,100,40,20]}},{&quot;type&quot;:&quot;task&quot;,&quot;linkedIssues&quot;:{&quot;32651&quot;:{&quot;key&quot;:&quot;PROJIRA-259&quot;,&quot;summary&quot;:&quot;SeS_Gestion des menus&quot;,&quot;baseUrl&quot;:&quot;https://jira.smartesting.com&quot;}},&quot;id&quot;:&quot;cc32ee307a8d11ecbe198f212798e408&quot;,&quot;name&quot;:&quot;Vérifier les menus présents&quot;,&quot;table&quot;:{&quot;columns&quot;:[{&quot;id&quot;:&quot;23Kjx8fQiXI0OiAkJt7ohojEYpQjsC2i&quot;,&quot;kind&quot;:&quot;STEP&quot;}],&quot;decisions&quot;:[{&quot;id&quot;:&quot;Bb0kzWIUmejuQrf6LRhSee48niYVPmsg&quot;,&quot;cells&quot;:{&quot;23Kjx8fQiXI0OiAkJt7ohojEYpQjsC2i&quot;:{&quot;kind&quot;:&quot;operation&quot;,&quot;operations&quot;:[{&quot;id&quot;:&quot;Jp0AZPM3MCa4bPWxE3RQnohis6VxuhWr&quot;,&quot;highLevel&quot;:{&quot;action&quot;:{&quot;items&quot;:[{&quot;kind&quot;:&quot;text&quot;,&quot;value&quot;:&quot;Vérifier les menus présents&quot;}]},&quot;result&quot;:{&quot;items&quot;:[]}}}]}}}]},&quot;bounds&quot;:[115,277,100,50]},{&quot;type&quot;:&quot;task&quot;,&quot;id&quot;:&quot;e424ff107a8d11ecbe198f212798e408&quot;,&quot;name&quot;:&quot;Vérifier que tous  les menus permettent d'accéder aux catégories de produits&quot;,&quot;table&quot;:{&quot;columns&quot;:[{&quot;id&quot;:&quot;PcTJ6cafwks8Pj5vwk5FBjVNfFsmYDFd&quot;,&quot;kind&quot;:&quot;STEP&quot;}],&quot;decisions&quot;:[{&quot;id&quot;:&quot;cFaVc9QW8CKJgb18vxHaVhEd6GxisMDd&quot;,&quot;cells&quot;:{&quot;PcTJ6cafwks8Pj5vwk5FBjVNfFsmYDFd&quot;:{&quot;kind&quot;:&quot;operation&quot;,&quot;operations&quot;:[{&quot;id&quot;:&quot;ZU23z0MiYyidqYY25NuYZshxKl5I6bBt&quot;,&quot;highLevel&quot;:{&quot;action&quot;:{&quot;items&quot;:[{&quot;kind&quot;:&quot;text&quot;,&quot;value&quot;:&quot;Vérifier que tous  les menus permettent d'accéder aux catégories de produits&quot;}]},&quot;result&quot;:{&quot;items&quot;:[]}}}]}}}]},&quot;bounds&quot;:[83,351,164,73]},{&quot;type&quot;:&quot;task&quot;,&quot;id&quot;:&quot;180666207a8e11ecbe198f212798e408&quot;,&quot;name&quot;:&quot;Aller sur la page d'accueil&quot;,&quot;table&quot;:{&quot;columns&quot;:[{&quot;id&quot;:&quot;OBgRnxk8wtlsqOmBCiXTWYZV0lEMB9tS&quot;,&quot;kind&quot;:&quot;STEP&quot;}],&quot;decisions&quot;:[{&quot;id&quot;:&quot;4GavzCDJAHuo219GwKTESCUS2yb3ioYs&quot;,&quot;cells&quot;:{&quot;OBgRnxk8wtlsqOmBCiXTWYZV0lEMB9tS&quot;:{&quot;kind&quot;:&quot;operation&quot;,&quot;operations&quot;:[{&quot;id&quot;:&quot;USrylCS1zmjhomhmomwjNOeSoWOTnC4k&quot;,&quot;highLevel&quot;:{&quot;action&quot;:{&quot;items&quot;:[{&quot;kind&quot;:&quot;text&quot;,&quot;value&quot;:&quot;Aller sur la page d'accueil&quot;}]},&quot;result&quot;:{&quot;items&quot;:[]}}}]}}}]},&quot;bounds&quot;:[115,447,100,50]},{&quot;type&quot;:&quot;end&quot;,&quot;id&quot;:&quot;cc3511107a8d11ecbe198f212798e408&quot;,&quot;bounds&quot;:[150,524,31,31]},{&quot;type&quot;:&quot;task&quot;,&quot;linkedIssues&quot;:{&quot;32639&quot;:{&quot;key&quot;:&quot;PROJIRA-247&quot;,&quot;summary&quot;:&quot;SeS_Connexion à SeS&quot;,&quot;baseUrl&quot;:&quot;https://jira.smartesting.com&quot;}},&quot;id&quot;:&quot;JnLuaI87s3nKSoPvZs9HXkFXziZnv8ys&quot;,&quot;name&quot;:&quot;Se connecter à SeS&quot;,&quot;table&quot;:{&quot;columns&quot;:[{&quot;id&quot;:&quot;VgEebzaUpy3djyfsreEbGoSu91hXAAfI&quot;,&quot;kind&quot;:&quot;STEP&quot;}],&quot;decisions&quot;:[{&quot;id&quot;:&quot;WRDo7sfOqwnngLylADCBWpZEoccFEBAw&quot;,&quot;cells&quot;:{&quot;VgEebzaUpy3djyfsreEbGoSu91hXAAfI&quot;:{&quot;kind&quot;:&quot;operation&quot;,&quot;operations&quot;:[{&quot;id&quot;:&quot;zlQNT8Tm8tzQqOxFvQRCeWsfmJx9HHyh&quot;,&quot;highLevel&quot;:{&quot;action&quot;:{&quot;items&quot;:[{&quot;kind&quot;:&quot;text&quot;,&quot;value&quot;:&quot;Se connecter à SeS&quot;}]},&quot;result&quot;:{&quot;items&quot;:[{&quot;kind&quot;:&quot;text&quot;,&quot;value&quot;:&quot;modifié par U1 encore&quot;}]}}}]}}}]},&quot;bounds&quot;:[94,192,141,50]}],&quot;connections&quot;:[{&quot;id&quot;:&quot;0297a4c07a8e11ecbe198f212798e408&quot;,&quot;source&quot;:&quot;cc32ee307a8d11ecbe198f212798e408&quot;,&quot;target&quot;:&quot;e424ff107a8d11ecbe198f212798e408&quot;},{&quot;id&quot;:&quot;4331ec607a8f11ecbe198f212798e408&quot;,&quot;source&quot;:&quot;180666207a8e11ecbe198f212798e408&quot;,&quot;target&quot;:&quot;cc3511107a8d11ecbe198f212798e408&quot;},{&quot;id&quot;:&quot;5XIA7ZyTawzfP7GHUbcCag1WyGkODuuO&quot;,&quot;source&quot;:&quot;cc27caa17a8d11ecbe198f212798e408&quot;,&quot;target&quot;:&quot;JnLuaI87s3nKSoPvZs9HXkFXziZnv8ys&quot;},{&quot;id&quot;:&quot;NSoTBEqOoIUjqtIZugeTtgGrgtYOy6k0&quot;,&quot;source&quot;:&quot;JnLuaI87s3nKSoPvZs9HXkFXziZnv8ys&quot;,&quot;target&quot;:&quot;cc32ee307a8d11ecbe198f212798e408&quot;},{&quot;id&quot;:&quot;urWM1W1j4dtvTV0JxbBtAtr3peb1vTx0&quot;,&quot;source&quot;:&quot;e424ff107a8d11ecbe198f212798e408&quot;,&quot;target&quot;:&quot;180666207a8e11ecbe198f212798e408&quot;}]}"/>
       <metadata key="jiraWorkflow_Summary" value="SeS_Vérifier les menus de SeS"/>
       <metadata key="jiraWorkflow_ProjectId" value="PROJIRA"/>
       <metadata key="jiraWorkflow_ProjectName" value="Projet Assurance auto_Elo"/>
       <metadata key="jiraWorkflow_IssueTypeId" value="10100"/>
       <metadata key="jiraWorkflow_UserUrl" value="https://jira.smartesting.com/browse/PROJIRA-248"/>
-      <metadata key="jiraWorkflow_WorkflowVersion" value="8"/>
+      <metadata key="jiraWorkflow_Fields" value="{}"/>
+      <metadata key="jiraWorkflow_WorkflowVersion" value="9"/>
+      <metadata key="jiraWorkflow_WorkflowContent" value="{&quot;id&quot;:&quot;4e9125d07a8f11ecbe198f212798e408&quot;,&quot;yest4JiraVersion&quot;:2,&quot;groups&quot;:[],&quot;nodes&quot;:[{&quot;type&quot;:&quot;start&quot;,&quot;id&quot;:&quot;cc27caa17a8d11ecbe198f212798e408&quot;,&quot;name&quot;:&quot;début&quot;,&quot;bounds&quot;:[150,100,31,31],&quot;label&quot;:{&quot;bounds&quot;:[100,100,40,20]}},{&quot;type&quot;:&quot;task&quot;,&quot;linkedIssues&quot;:{&quot;32651&quot;:{&quot;key&quot;:&quot;PROJIRA-259&quot;,&quot;summary&quot;:&quot;SeS_Gestion des menus&quot;,&quot;baseUrl&quot;:&quot;https://jira.smartesting.com&quot;}},&quot;id&quot;:&quot;cc32ee307a8d11ecbe198f212798e408&quot;,&quot;name&quot;:&quot;Vérifier les menus présents&quot;,&quot;table&quot;:{&quot;columns&quot;:[{&quot;id&quot;:&quot;23Kjx8fQiXI0OiAkJt7ohojEYpQjsC2i&quot;,&quot;kind&quot;:&quot;STEP&quot;}],&quot;decisions&quot;:[{&quot;id&quot;:&quot;Bb0kzWIUmejuQrf6LRhSee48niYVPmsg&quot;,&quot;cells&quot;:{&quot;23Kjx8fQiXI0OiAkJt7ohojEYpQjsC2i&quot;:{&quot;kind&quot;:&quot;operation&quot;,&quot;operations&quot;:[{&quot;id&quot;:&quot;Jp0AZPM3MCa4bPWxE3RQnohis6VxuhWr&quot;,&quot;highLevel&quot;:{&quot;action&quot;:{&quot;items&quot;:[{&quot;kind&quot;:&quot;text&quot;,&quot;value&quot;:&quot;Vérifier les menus présents&quot;}]},&quot;result&quot;:{&quot;items&quot;:[]}}}]}}}]},&quot;bounds&quot;:[115,277,100,50]},{&quot;type&quot;:&quot;task&quot;,&quot;id&quot;:&quot;e424ff107a8d11ecbe198f212798e408&quot;,&quot;name&quot;:&quot;Vérifier que tous  les menus permettent d'accéder aux catégories de produits&quot;,&quot;table&quot;:{&quot;columns&quot;:[{&quot;id&quot;:&quot;PcTJ6cafwks8Pj5vwk5FBjVNfFsmYDFd&quot;,&quot;kind&quot;:&quot;STEP&quot;}],&quot;decisions&quot;:[{&quot;id&quot;:&quot;cFaVc9QW8CKJgb18vxHaVhEd6GxisMDd&quot;,&quot;cells&quot;:{&quot;PcTJ6cafwks8Pj5vwk5FBjVNfFsmYDFd&quot;:{&quot;kind&quot;:&quot;operation&quot;,&quot;operations&quot;:[{&quot;id&quot;:&quot;ZU23z0MiYyidqYY25NuYZshxKl5I6bBt&quot;,&quot;highLevel&quot;:{&quot;action&quot;:{&quot;items&quot;:[{&quot;kind&quot;:&quot;text&quot;,&quot;value&quot;:&quot;Vérifier que tous  les menus permettent d'accéder aux catégories de produits&quot;}]},&quot;result&quot;:{&quot;items&quot;:[]}}}]}}}]},&quot;bounds&quot;:[83,351,164,73]},{&quot;type&quot;:&quot;task&quot;,&quot;id&quot;:&quot;180666207a8e11ecbe198f212798e408&quot;,&quot;name&quot;:&quot;Aller sur la page d'accueil&quot;,&quot;table&quot;:{&quot;columns&quot;:[{&quot;id&quot;:&quot;OBgRnxk8wtlsqOmBCiXTWYZV0lEMB9tS&quot;,&quot;kind&quot;:&quot;STEP&quot;}],&quot;decisions&quot;:[{&quot;id&quot;:&quot;4GavzCDJAHuo219GwKTESCUS2yb3ioYs&quot;,&quot;cells&quot;:{&quot;OBgRnxk8wtlsqOmBCiXTWYZV0lEMB9tS&quot;:{&quot;kind&quot;:&quot;operation&quot;,&quot;operations&quot;:[{&quot;id&quot;:&quot;USrylCS1zmjhomhmomwjNOeSoWOTnC4k&quot;,&quot;highLevel&quot;:{&quot;action&quot;:{&quot;items&quot;:[{&quot;kind&quot;:&quot;text&quot;,&quot;value&quot;:&quot;Aller sur la page d'accueil&quot;}]},&quot;result&quot;:{&quot;items&quot;:[]}}}]}}}]},&quot;bounds&quot;:[115,447,100,50]},{&quot;type&quot;:&quot;end&quot;,&quot;id&quot;:&quot;cc3511107a8d11ecbe198f212798e408&quot;,&quot;bounds&quot;:[150,524,31,31]},{&quot;type&quot;:&quot;task&quot;,&quot;linkedIssues&quot;:{&quot;32639&quot;:{&quot;key&quot;:&quot;PROJIRA-247&quot;,&quot;summary&quot;:&quot;SeS_Connexion à SeS&quot;,&quot;baseUrl&quot;:&quot;https://jira.smartesting.com&quot;}},&quot;id&quot;:&quot;JnLuaI87s3nKSoPvZs9HXkFXziZnv8ys&quot;,&quot;name&quot;:&quot;Se connecter à SeS&quot;,&quot;table&quot;:{&quot;columns&quot;:[{&quot;id&quot;:&quot;VgEebzaUpy3djyfsreEbGoSu91hXAAfI&quot;,&quot;kind&quot;:&quot;STEP&quot;}],&quot;decisions&quot;:[{&quot;id&quot;:&quot;WRDo7sfOqwnngLylADCBWpZEoccFEBAw&quot;,&quot;cells&quot;:{&quot;VgEebzaUpy3djyfsreEbGoSu91hXAAfI&quot;:{&quot;kind&quot;:&quot;operation&quot;,&quot;operations&quot;:[{&quot;id&quot;:&quot;zlQNT8Tm8tzQqOxFvQRCeWsfmJx9HHyh&quot;,&quot;highLevel&quot;:{&quot;action&quot;:{&quot;items&quot;:[{&quot;kind&quot;:&quot;text&quot;,&quot;value&quot;:&quot;Se connecter à SeS&quot;}]},&quot;result&quot;:{&quot;items&quot;:[]}}}]}}}]},&quot;bounds&quot;:[94,192,141,50]}],&quot;connections&quot;:[{&quot;id&quot;:&quot;0297a4c07a8e11ecbe198f212798e408&quot;,&quot;source&quot;:&quot;cc32ee307a8d11ecbe198f212798e408&quot;,&quot;target&quot;:&quot;e424ff107a8d11ecbe198f212798e408&quot;},{&quot;id&quot;:&quot;4331ec607a8f11ecbe198f212798e408&quot;,&quot;source&quot;:&quot;180666207a8e11ecbe198f212798e408&quot;,&quot;target&quot;:&quot;cc3511107a8d11ecbe198f212798e408&quot;},{&quot;id&quot;:&quot;5XIA7ZyTawzfP7GHUbcCag1WyGkODuuO&quot;,&quot;source&quot;:&quot;cc27caa17a8d11ecbe198f212798e408&quot;,&quot;target&quot;:&quot;JnLuaI87s3nKSoPvZs9HXkFXziZnv8ys&quot;},{&quot;id&quot;:&quot;NSoTBEqOoIUjqtIZugeTtgGrgtYOy6k0&quot;,&quot;source&quot;:&quot;JnLuaI87s3nKSoPvZs9HXkFXziZnv8ys&quot;,&quot;target&quot;:&quot;cc32ee307a8d11ecbe198f212798e408&quot;},{&quot;id&quot;:&quot;urWM1W1j4dtvTV0JxbBtAtr3peb1vTx0&quot;,&quot;source&quot;:&quot;e424ff107a8d11ecbe198f212798e408&quot;,&quot;target&quot;:&quot;180666207a8e11ecbe198f212798e408&quot;}]}"/>
       <metadata key="jiraWorkflow_Status" value="MODIFIED"/>
       <flowElements xsi:type="yest:StartPoint" id="cc27caa17a8d11ecbe198f212798e408" name="début" outgoings="5XIA7ZyTawzfP7GHUbcCag1WyGkODuuO"/>
       <flowElements xsi:type="yest:Task" id="cc32ee307a8d11ecbe198f212798e408" name="Vérifier les menus présents" incomings="NSoTBEqOoIUjqtIZugeTtgGrgtYOy6k0" outgoings="0297a4c07a8e11ecbe198f212798e408">
@@ -1067,8 +1532,6 @@
         </table>
       </flowElements>
       <flowElements xsi:type="yest:EndPoint" id="cc3511107a8d11ecbe198f212798e408" name="" incomings="4331ec607a8f11ecbe198f212798e408"/>
-      <flowElements xsi:type="yest:SequenceFlow" id="0297a4c07a8e11ecbe198f212798e408" name="" target="e424ff107a8d11ecbe198f212798e408" source="cc32ee307a8d11ecbe198f212798e408"/>
-      <flowElements xsi:type="yest:SequenceFlow" id="4331ec607a8f11ecbe198f212798e408" name="" target="cc3511107a8d11ecbe198f212798e408" source="180666207a8e11ecbe198f212798e408"/>
       <flowElements xsi:type="yest:Task" id="JnLuaI87s3nKSoPvZs9HXkFXziZnv8ys" name="Se connecter à SeS" incomings="5XIA7ZyTawzfP7GHUbcCag1WyGkODuuO" outgoings="NSoTBEqOoIUjqtIZugeTtgGrgtYOy6k0">
         <metadata key="#!Jira!#LinkedIssues" value="{&quot;32639&quot;:{&quot;key&quot;:&quot;PROJIRA-247&quot;,&quot;summary&quot;:&quot;SeS_Connexion à SeS&quot;,&quot;baseUrl&quot;:&quot;https://jira.smartesting.com&quot;}}"/>
         <table>
@@ -1076,390 +1539,63 @@
           <decisions id="WRDo7sfOqwnngLylADCBWpZEoccFEBAw">
             <cells key="VgEebzaUpy3djyfsreEbGoSu91hXAAfI">
               <value xsi:type="yest:OperationCell">
-                <operations reference="vfbSQBQMenT9lUlhuys52tdreTHg3c0f"/>
+                <operations reference="KuPjboR1if1VyGPmUNzLEDr0iNvn9fUT"/>
               </value>
             </cells>
           </decisions>
         </table>
       </flowElements>
-      <flowElements xsi:type="yest:SequenceFlow" id="NSoTBEqOoIUjqtIZugeTtgGrgtYOy6k0" name="" target="cc32ee307a8d11ecbe198f212798e408" source="JnLuaI87s3nKSoPvZs9HXkFXziZnv8ys"/>
+      <flowElements xsi:type="yest:SequenceFlow" id="0297a4c07a8e11ecbe198f212798e408" name="" target="e424ff107a8d11ecbe198f212798e408" source="cc32ee307a8d11ecbe198f212798e408"/>
+      <flowElements xsi:type="yest:SequenceFlow" id="4331ec607a8f11ecbe198f212798e408" name="" target="cc3511107a8d11ecbe198f212798e408" source="180666207a8e11ecbe198f212798e408"/>
       <flowElements xsi:type="yest:SequenceFlow" id="5XIA7ZyTawzfP7GHUbcCag1WyGkODuuO" name="" target="JnLuaI87s3nKSoPvZs9HXkFXziZnv8ys" source="cc27caa17a8d11ecbe198f212798e408"/>
+      <flowElements xsi:type="yest:SequenceFlow" id="NSoTBEqOoIUjqtIZugeTtgGrgtYOy6k0" name="" target="cc32ee307a8d11ecbe198f212798e408" source="JnLuaI87s3nKSoPvZs9HXkFXziZnv8ys"/>
       <flowElements xsi:type="yest:SequenceFlow" id="urWM1W1j4dtvTV0JxbBtAtr3peb1vTx0" name="" target="180666207a8e11ecbe198f212798e408" source="e424ff107a8d11ecbe198f212798e408"/>
-      <diagram visible="true" gridUnit="-1" diagramTypeId="com.smartesting.metamodel.WorkflowDiagram" name="SeS_Vérifier les menus de SeS" pictogramLinks="//@subFolders.1/@testElements.0/@diagram/@children.0/@link //@subFolders.1/@testElements.0/@diagram/@children.2/@link //@subFolders.1/@testElements.0/@diagram/@children.3/@link //@subFolders.1/@testElements.0/@diagram/@children.4/@link //@subFolders.1/@testElements.0/@diagram/@children.5/@link //@subFolders.1/@testElements.0/@diagram/@connections.0/@link //@subFolders.1/@testElements.0/@diagram/@connections.1/@link //@subFolders.1/@testElements.0/@diagram/@children.6/@link //@subFolders.1/@testElements.0/@diagram/@connections.2/@link //@subFolders.1/@testElements.0/@diagram/@connections.3/@link //@subFolders.1/@testElements.0/@diagram/@connections.4/@link" version="0.16.0">
-        <graphicsAlgorithm xsi:type="al:Rectangle" background="//@subFolders.1/@testElements.0/@diagram/@colors.1" foreground="//@subFolders.1/@testElements.0/@diagram/@colors.0" lineWidth="1" transparency="0.0" width="1000" height="1000"/>
-        <children xsi:type="yest:StartPointShape" visible="true" active="true" flowNode="cc27caa17a8d11ecbe198f212798e408" labelShape="//@subFolders.1/@testElements.0/@diagram/@children.1">
-          <graphicsAlgorithm xsi:type="al:Ellipse" foreground="//@subFolders.1/@testElements.0/@diagram/@colors.2" lineWidth="2" transparency="0.0" width="31" height="31" x="150" y="100" style="//@subFolders.1/@testElements.0/@diagram/@styles.0"/>
-          <link businessObjects="cc27caa17a8d11ecbe198f212798e408"/>
-          <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@subFolders.1/@testElements.0/@diagram/@connections.3"/>
-        </children>
-        <children xsi:type="yest:LabelShape" visible="true" active="true" text="//@subFolders.1/@testElements.0/@diagram/@children.1/@children.0/@graphicsAlgorithm" labelled="//@subFolders.1/@testElements.0/@diagram/@children.0">
-          <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="40" height="20" x="100" y="100"/>
-          <children xsi:type="pi:ContainerShape" visible="true">
-            <graphicsAlgorithm xsi:type="al:Text" foreground="//@subFolders.1/@testElements.0/@diagram/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="40" height="20" font="//@subFolders.1/@testElements.0/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="début"/>
-          </children>
-        </children>
-        <children xsi:type="yest:TaskShape" visible="true" active="true" text="//@subFolders.1/@testElements.0/@diagram/@children.2/@children.0/@graphicsAlgorithm" flowNode="cc32ee307a8d11ecbe198f212798e408">
-          <graphicsAlgorithm xsi:type="al:RoundedRectangle" foreground="//@subFolders.1/@testElements.0/@diagram/@colors.4" lineWidth="2" transparency="0.0" width="100" height="50" x="115" y="277" style="//@subFolders.1/@testElements.0/@diagram/@styles.1" cornerHeight="20" cornerWidth="20"/>
-          <link businessObjects="cc32ee307a8d11ecbe198f212798e408"/>
-          <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@subFolders.1/@testElements.0/@diagram/@connections.0" incomingConnections="//@subFolders.1/@testElements.0/@diagram/@connections.2"/>
-          <children xsi:type="pi:ContainerShape" visible="true">
-            <graphicsAlgorithm xsi:type="al:Text" foreground="//@subFolders.1/@testElements.0/@diagram/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="86" height="36" x="7" y="7" font="//@subFolders.1/@testElements.0/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Vérifier les&#xD;&#xA;menus présents"/>
-          </children>
-        </children>
-        <children xsi:type="yest:TaskShape" visible="true" active="true" text="//@subFolders.1/@testElements.0/@diagram/@children.3/@children.0/@graphicsAlgorithm" flowNode="e424ff107a8d11ecbe198f212798e408">
-          <graphicsAlgorithm xsi:type="al:RoundedRectangle" foreground="//@subFolders.1/@testElements.0/@diagram/@colors.4" lineWidth="2" transparency="0.0" width="164" height="73" x="83" y="351" style="//@subFolders.1/@testElements.0/@diagram/@styles.1" cornerHeight="20" cornerWidth="20"/>
-          <link businessObjects="e424ff107a8d11ecbe198f212798e408"/>
-          <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@subFolders.1/@testElements.0/@diagram/@connections.4" incomingConnections="//@subFolders.1/@testElements.0/@diagram/@connections.0"/>
-          <children xsi:type="pi:ContainerShape" visible="true">
-            <graphicsAlgorithm xsi:type="al:Text" foreground="//@subFolders.1/@testElements.0/@diagram/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="150" height="59" x="7" y="7" font="//@subFolders.1/@testElements.0/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Vérifier que tous  les menus&#xD;&#xA;permettent d'accéder aux&#xD;&#xA;catégories de produits"/>
-          </children>
-        </children>
-        <children xsi:type="yest:TaskShape" visible="true" active="true" text="//@subFolders.1/@testElements.0/@diagram/@children.4/@children.0/@graphicsAlgorithm" flowNode="180666207a8e11ecbe198f212798e408">
-          <graphicsAlgorithm xsi:type="al:RoundedRectangle" foreground="//@subFolders.1/@testElements.0/@diagram/@colors.4" lineWidth="2" transparency="0.0" width="100" height="50" x="115" y="447" style="//@subFolders.1/@testElements.0/@diagram/@styles.1" cornerHeight="20" cornerWidth="20"/>
-          <link businessObjects="180666207a8e11ecbe198f212798e408"/>
-          <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@subFolders.1/@testElements.0/@diagram/@connections.1" incomingConnections="//@subFolders.1/@testElements.0/@diagram/@connections.4"/>
-          <children xsi:type="pi:ContainerShape" visible="true">
-            <graphicsAlgorithm xsi:type="al:Text" foreground="//@subFolders.1/@testElements.0/@diagram/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="86" height="36" x="7" y="7" font="//@subFolders.1/@testElements.0/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Aller sur la page&#xD;&#xA;d'accueil"/>
-          </children>
-        </children>
-        <children xsi:type="yest:EndPointShape" visible="true" active="true" flowNode="cc3511107a8d11ecbe198f212798e408">
-          <graphicsAlgorithm xsi:type="al:Ellipse" foreground="//@subFolders.1/@testElements.0/@diagram/@colors.5" lineWidth="4" transparency="0.0" width="31" height="31" x="150" y="524" style="//@subFolders.1/@testElements.0/@diagram/@styles.2"/>
-          <link businessObjects="cc3511107a8d11ecbe198f212798e408"/>
-          <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@subFolders.1/@testElements.0/@diagram/@connections.1"/>
-        </children>
-        <children xsi:type="yest:TaskShape" visible="true" active="true" text="//@subFolders.1/@testElements.0/@diagram/@children.6/@children.0/@graphicsAlgorithm" flowNode="JnLuaI87s3nKSoPvZs9HXkFXziZnv8ys">
-          <graphicsAlgorithm xsi:type="al:RoundedRectangle" foreground="//@subFolders.1/@testElements.0/@diagram/@colors.4" lineWidth="2" transparency="0.0" width="141" height="50" x="94" y="192" style="//@subFolders.1/@testElements.0/@diagram/@styles.1" cornerHeight="20" cornerWidth="20"/>
-          <link businessObjects="JnLuaI87s3nKSoPvZs9HXkFXziZnv8ys"/>
-          <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@subFolders.1/@testElements.0/@diagram/@connections.2" incomingConnections="//@subFolders.1/@testElements.0/@diagram/@connections.3"/>
-          <children xsi:type="pi:ContainerShape" visible="true">
-            <graphicsAlgorithm xsi:type="al:Text" foreground="//@subFolders.1/@testElements.0/@diagram/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="127" height="36" x="7" y="7" font="//@subFolders.1/@testElements.0/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Se connecter à SeS"/>
-          </children>
-        </children>
-        <styles id="shape-bg-green-id">
-          <renderingStyle>
-            <adaptedGradientColoredAreas definedStyleId="shape-bg-green-id" gradientType="0">
-              <adaptedGradientColoredAreas styleAdaption="0">
-                <gradientColor>
-                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
-                    <color red="188" green="221" blue="186"/>
-                  </start>
-                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
-                    <color red="255" green="255" blue="255"/>
-                  </end>
-                </gradientColor>
-              </adaptedGradientColoredAreas>
-              <adaptedGradientColoredAreas styleAdaption="1">
-                <gradientColor>
-                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
-                    <color red="188" green="221" blue="186"/>
-                  </start>
-                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
-                    <color red="188" green="221" blue="186"/>
-                  </end>
-                </gradientColor>
-              </adaptedGradientColoredAreas>
-              <adaptedGradientColoredAreas styleAdaption="2">
-                <gradientColor>
-                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
-                    <color red="188" green="221" blue="186"/>
-                  </start>
-                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
-                    <color red="188" green="221" blue="186"/>
-                  </end>
-                </gradientColor>
-              </adaptedGradientColoredAreas>
-            </adaptedGradientColoredAreas>
-          </renderingStyle>
-        </styles>
-        <styles id="shape-bg-blue-id">
-          <renderingStyle>
-            <adaptedGradientColoredAreas definedStyleId="shape-bg-blue-id" gradientType="0">
-              <adaptedGradientColoredAreas styleAdaption="0">
-                <gradientColor>
-                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
-                    <color red="200" green="227" blue="238"/>
-                  </start>
-                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
-                    <color red="255" green="255" blue="255"/>
-                  </end>
-                </gradientColor>
-              </adaptedGradientColoredAreas>
-              <adaptedGradientColoredAreas styleAdaption="1">
-                <gradientColor>
-                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
-                    <color red="200" green="227" blue="238"/>
-                  </start>
-                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
-                    <color red="200" green="227" blue="238"/>
-                  </end>
-                </gradientColor>
-              </adaptedGradientColoredAreas>
-              <adaptedGradientColoredAreas styleAdaption="2">
-                <gradientColor>
-                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
-                    <color red="200" green="227" blue="238"/>
-                  </start>
-                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
-                    <color red="200" green="227" blue="238"/>
-                  </end>
-                </gradientColor>
-              </adaptedGradientColoredAreas>
-            </adaptedGradientColoredAreas>
-          </renderingStyle>
-        </styles>
-        <styles id="shape-bg-red-id">
-          <renderingStyle>
-            <adaptedGradientColoredAreas definedStyleId="shape-bg-red-id" gradientType="0">
-              <adaptedGradientColoredAreas styleAdaption="0">
-                <gradientColor>
-                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
-                    <color red="255" green="144" blue="158"/>
-                  </start>
-                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
-                    <color red="255" green="255" blue="255"/>
-                  </end>
-                </gradientColor>
-              </adaptedGradientColoredAreas>
-              <adaptedGradientColoredAreas styleAdaption="1">
-                <gradientColor>
-                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
-                    <color red="255" green="144" blue="158"/>
-                  </start>
-                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
-                    <color red="255" green="144" blue="158"/>
-                  </end>
-                </gradientColor>
-              </adaptedGradientColoredAreas>
-              <adaptedGradientColoredAreas styleAdaption="2">
-                <gradientColor>
-                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
-                    <color red="255" green="144" blue="158"/>
-                  </start>
-                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
-                    <color red="255" green="144" blue="158"/>
-                  </end>
-                </gradientColor>
-              </adaptedGradientColoredAreas>
-            </adaptedGradientColoredAreas>
-          </renderingStyle>
-        </styles>
-        <styles id="shape-bg-purple-id">
-          <renderingStyle>
-            <adaptedGradientColoredAreas definedStyleId="shape-bg-purple-id" gradientType="0">
-              <adaptedGradientColoredAreas styleAdaption="0">
-                <gradientColor>
-                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
-                    <color red="240" green="198" blue="240"/>
-                  </start>
-                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
-                    <color red="255" green="255" blue="255"/>
-                  </end>
-                </gradientColor>
-              </adaptedGradientColoredAreas>
-              <adaptedGradientColoredAreas styleAdaption="1">
-                <gradientColor>
-                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
-                    <color red="240" green="198" blue="240"/>
-                  </start>
-                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
-                    <color red="240" green="198" blue="240"/>
-                  </end>
-                </gradientColor>
-              </adaptedGradientColoredAreas>
-              <adaptedGradientColoredAreas styleAdaption="2">
-                <gradientColor>
-                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
-                    <color red="240" green="198" blue="240"/>
-                  </start>
-                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
-                    <color red="240" green="198" blue="240"/>
-                  </end>
-                </gradientColor>
-              </adaptedGradientColoredAreas>
-            </adaptedGradientColoredAreas>
-          </renderingStyle>
-        </styles>
-        <connections xsi:type="yest:SequenceFlowConnection" visible="true" active="true" start="//@subFolders.1/@testElements.0/@diagram/@children.2/@anchors.0" end="//@subFolders.1/@testElements.0/@diagram/@children.3/@anchors.0" sequenceFlow="0297a4c07a8e11ecbe198f212798e408">
-          <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@subFolders.1/@testElements.0/@diagram/@colors.3" lineWidth="1" lineStyle="UNSPECIFIED"/>
-          <link businessObjects="0297a4c07a8e11ecbe198f212798e408"/>
-          <connectionDecorators visible="true" locationRelative="true" location="1.0">
-            <graphicsAlgorithm xsi:type="al:Polygon" background="//@subFolders.1/@testElements.0/@diagram/@colors.3" foreground="//@subFolders.1/@testElements.0/@diagram/@colors.3" lineWidth="3" filled="true" transparency="0.0">
-              <points x="-6" y="3"/>
-              <points x="1"/>
-              <points x="-6" y="-3"/>
-            </graphicsAlgorithm>
-          </connectionDecorators>
-        </connections>
-        <connections xsi:type="yest:SequenceFlowConnection" visible="true" active="true" start="//@subFolders.1/@testElements.0/@diagram/@children.4/@anchors.0" end="//@subFolders.1/@testElements.0/@diagram/@children.5/@anchors.0" sequenceFlow="4331ec607a8f11ecbe198f212798e408">
-          <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@subFolders.1/@testElements.0/@diagram/@colors.3" lineWidth="1" lineStyle="UNSPECIFIED"/>
-          <link businessObjects="4331ec607a8f11ecbe198f212798e408"/>
-          <connectionDecorators visible="true" locationRelative="true" location="1.0">
-            <graphicsAlgorithm xsi:type="al:Polygon" background="//@subFolders.1/@testElements.0/@diagram/@colors.3" foreground="//@subFolders.1/@testElements.0/@diagram/@colors.3" lineWidth="3" filled="true" transparency="0.0">
-              <points x="-6" y="3"/>
-              <points x="1"/>
-              <points x="-6" y="-3"/>
-            </graphicsAlgorithm>
-          </connectionDecorators>
-        </connections>
-        <connections xsi:type="yest:SequenceFlowConnection" visible="true" active="true" start="//@subFolders.1/@testElements.0/@diagram/@children.6/@anchors.0" end="//@subFolders.1/@testElements.0/@diagram/@children.2/@anchors.0" sequenceFlow="NSoTBEqOoIUjqtIZugeTtgGrgtYOy6k0">
-          <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@subFolders.1/@testElements.0/@diagram/@colors.3" lineWidth="1" lineStyle="UNSPECIFIED"/>
-          <link businessObjects="NSoTBEqOoIUjqtIZugeTtgGrgtYOy6k0"/>
-          <connectionDecorators visible="true" locationRelative="true" location="1.0">
-            <graphicsAlgorithm xsi:type="al:Polygon" background="//@subFolders.1/@testElements.0/@diagram/@colors.3" foreground="//@subFolders.1/@testElements.0/@diagram/@colors.3" lineWidth="1" filled="true" transparency="0.0">
-              <points x="-6" y="3"/>
-              <points x="1"/>
-              <points x="-6" y="-3"/>
-            </graphicsAlgorithm>
-          </connectionDecorators>
-        </connections>
-        <connections xsi:type="yest:SequenceFlowConnection" visible="true" active="true" start="//@subFolders.1/@testElements.0/@diagram/@children.0/@anchors.0" end="//@subFolders.1/@testElements.0/@diagram/@children.6/@anchors.0" sequenceFlow="5XIA7ZyTawzfP7GHUbcCag1WyGkODuuO">
-          <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@subFolders.1/@testElements.0/@diagram/@colors.3" lineWidth="1" lineStyle="UNSPECIFIED"/>
-          <link businessObjects="5XIA7ZyTawzfP7GHUbcCag1WyGkODuuO"/>
-          <connectionDecorators visible="true" locationRelative="true" location="1.0">
-            <graphicsAlgorithm xsi:type="al:Polygon" background="//@subFolders.1/@testElements.0/@diagram/@colors.3" foreground="//@subFolders.1/@testElements.0/@diagram/@colors.3" lineWidth="1" filled="true" transparency="0.0">
-              <points x="-6" y="3"/>
-              <points x="1"/>
-              <points x="-6" y="-3"/>
-            </graphicsAlgorithm>
-          </connectionDecorators>
-        </connections>
-        <connections xsi:type="yest:SequenceFlowConnection" visible="true" active="true" start="//@subFolders.1/@testElements.0/@diagram/@children.3/@anchors.0" end="//@subFolders.1/@testElements.0/@diagram/@children.4/@anchors.0" sequenceFlow="urWM1W1j4dtvTV0JxbBtAtr3peb1vTx0">
-          <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@subFolders.1/@testElements.0/@diagram/@colors.3" lineWidth="1" lineStyle="UNSPECIFIED"/>
-          <link businessObjects="urWM1W1j4dtvTV0JxbBtAtr3peb1vTx0"/>
-          <connectionDecorators visible="true" locationRelative="true" location="1.0">
-            <graphicsAlgorithm xsi:type="al:Polygon" background="//@subFolders.1/@testElements.0/@diagram/@colors.3" foreground="//@subFolders.1/@testElements.0/@diagram/@colors.3" lineWidth="1" filled="true" transparency="0.0">
-              <points x="-6" y="3"/>
-              <points x="1"/>
-              <points x="-6" y="-3"/>
-            </graphicsAlgorithm>
-          </connectionDecorators>
-        </connections>
-        <colors red="227" green="238" blue="249"/>
-        <colors red="255" green="255" blue="255"/>
-        <colors red="164" green="193" blue="162"/>
-        <colors red="51" green="51" blue="51"/>
-        <colors red="174" green="198" blue="207"/>
-        <colors red="239" green="126" blue="138"/>
-        <colors red="209" green="173" blue="209"/>
-        <fonts name="Segoe UI" size="9"/>
-      </diagram>
-    </testElements>
-    <testElements xsi:type="yest:Workflow" id="ab9344707a8f11ecbb76e93fdf98a1ed" name="SeS_Vérifier une/les catégorie(s) de produits">
-      <metadata key="jiraWorkflow_Key" value="PROJIRA-249"/>
-      <metadata key="jiraWorkflow_Summary" value="SeS_Vérifier une/les catégorie(s) de produits"/>
-      <metadata key="jiraWorkflow_ProjectId" value="PROJIRA"/>
-      <metadata key="jiraWorkflow_ProjectName" value="Projet Assurance auto_Elo"/>
-      <metadata key="jiraWorkflow_IssueTypeId" value="10100"/>
-      <metadata key="jiraWorkflow_UserUrl" value="https://jira.smartesting.com/browse/PROJIRA-249"/>
-      <metadata key="jiraWorkflow_Fields" value="{}"/>
-      <metadata key="jiraWorkflow_WorkflowVersion" value="13"/>
-      <metadata key="jiraWorkflow_WorkflowContent" value="{&quot;id&quot;:&quot;ab9344707a8f11ecbb76e93fdf98a1ed&quot;,&quot;yest4JiraVersion&quot;:2,&quot;groups&quot;:[],&quot;nodes&quot;:[{&quot;type&quot;:&quot;start&quot;,&quot;id&quot;:&quot;474c08817a8f11ecbe198f212798e408&quot;,&quot;name&quot;:&quot;début&quot;,&quot;bounds&quot;:[204,89,31,31],&quot;label&quot;:{&quot;bounds&quot;:[154,89,40,20]}},{&quot;type&quot;:&quot;task&quot;,&quot;linkedIssues&quot;:{&quot;32650&quot;:{&quot;key&quot;:&quot;PROJIRA-258&quot;,&quot;summary&quot;:&quot;SeS_Gestion des catégories&quot;,&quot;baseUrl&quot;:&quot;https://jira.smartesting.com&quot;}},&quot;id&quot;:&quot;5b6dd7807a8f11ecbb76e93fdf98a1ed&quot;,&quot;name&quot;:&quot;Accéder à la catégorie de produit&quot;,&quot;table&quot;:{&quot;columns&quot;:[{&quot;id&quot;:&quot;SOWKQjGuRs8fP3wzl0s3jhhfAcOkqG3k&quot;,&quot;kind&quot;:&quot;STEP&quot;}],&quot;decisions&quot;:[{&quot;id&quot;:&quot;JIN4bEwmQNGEKMeeCO6Mc8001SZ3mJMC&quot;,&quot;cells&quot;:{&quot;SOWKQjGuRs8fP3wzl0s3jhhfAcOkqG3k&quot;:{&quot;kind&quot;:&quot;operation&quot;,&quot;operations&quot;:[{&quot;id&quot;:&quot;P8aRGJMjeSbmoq22LguJvJCIe1pZ7F5O&quot;,&quot;highLevel&quot;:{&quot;action&quot;:{&quot;items&quot;:[{&quot;kind&quot;:&quot;text&quot;,&quot;value&quot;:&quot;Accéder à la catégorie de produit&quot;}]},&quot;result&quot;:{&quot;items&quot;:[{&quot;kind&quot;:&quot;text&quot;,&quot;value&quot;:&quot;La catégorie est affichée&quot;}]}}}]}}}]},&quot;bounds&quot;:[146,209,147,50]},{&quot;type&quot;:&quot;task&quot;,&quot;linkedIssues&quot;:{&quot;32650&quot;:{&quot;key&quot;:&quot;PROJIRA-258&quot;,&quot;summary&quot;:&quot;SeS_Gestion des catégories&quot;,&quot;baseUrl&quot;:&quot;https://jira.smartesting.com&quot;}},&quot;id&quot;:&quot;6a6839107a8f11ecbb76e93fdf98a1ed&quot;,&quot;name&quot;:&quot;Vérifier l'affichage du descriptif de la catégorie&quot;,&quot;table&quot;:{&quot;columns&quot;:[{&quot;id&quot;:&quot;jv4t97xFBVGam6WmIoamomKWRPbmKcwL&quot;,&quot;kind&quot;:&quot;STEP&quot;}],&quot;decisions&quot;:[{&quot;id&quot;:&quot;e9PwQD9bLhc8m8NZ2QgPDJ3RDHTdeXPD&quot;,&quot;cells&quot;:{&quot;jv4t97xFBVGam6WmIoamomKWRPbmKcwL&quot;:{&quot;kind&quot;:&quot;operation&quot;,&quot;operations&quot;:[{&quot;id&quot;:&quot;0uVdt5Uab9WqdIXYQGnN2gshQMgh3MZT&quot;,&quot;highLevel&quot;:{&quot;action&quot;:{&quot;items&quot;:[{&quot;kind&quot;:&quot;text&quot;,&quot;value&quot;:&quot;Vérifier l'affichage du descriptif de la catégorie&quot;}]},&quot;result&quot;:{&quot;items&quot;:[]}}}]}}}]},&quot;bounds&quot;:[124,286,190,50]},{&quot;type&quot;:&quot;task&quot;,&quot;linkedIssues&quot;:{&quot;32649&quot;:{&quot;key&quot;:&quot;PROJIRA-257&quot;,&quot;summary&quot;:&quot;SeS_Gestion des produits&quot;,&quot;baseUrl&quot;:&quot;https://jira.smartesting.com&quot;}},&quot;id&quot;:&quot;81507b107a8f11ecbb76e93fdf98a1ed&quot;,&quot;name&quot;:&quot;Vérifier la liste des produits affichés&quot;,&quot;table&quot;:{&quot;columns&quot;:[{&quot;id&quot;:&quot;43lCSKyYyx32ZMU2LyM4vzec6HoNl7Q8&quot;,&quot;kind&quot;:&quot;STEP&quot;}],&quot;decisions&quot;:[{&quot;id&quot;:&quot;fCA4sKOs93LMAmfZqpyR0FeF9ty4VnHv&quot;,&quot;cells&quot;:{&quot;43lCSKyYyx32ZMU2LyM4vzec6HoNl7Q8&quot;:{&quot;kind&quot;:&quot;operation&quot;,&quot;operations&quot;:[{&quot;id&quot;:&quot;WuWBs97fNtbRG9AbloG039QZg41v2UpY&quot;,&quot;highLevel&quot;:{&quot;action&quot;:{&quot;items&quot;:[{&quot;kind&quot;:&quot;text&quot;,&quot;value&quot;:&quot;Vérifier la liste des produits affichés&quot;}]},&quot;result&quot;:{&quot;items&quot;:[]}}}]}}}]},&quot;bounds&quot;:[146,376,147,50]},{&quot;type&quot;:&quot;end&quot;,&quot;id&quot;:&quot;5b6f5e207a8f11ecbb76e93fdf98a1ed&quot;,&quot;bounds&quot;:[204,471,31,31]},{&quot;type&quot;:&quot;task&quot;,&quot;linkedIssues&quot;:{&quot;32639&quot;:{&quot;key&quot;:&quot;PROJIRA-247&quot;,&quot;summary&quot;:&quot;SeS_Connexion à SeS&quot;,&quot;baseUrl&quot;:&quot;https://jira.smartesting.com&quot;}},&quot;id&quot;:&quot;FcLFkbWoCmyEvciTfKRi2Zp1J1VDz7jp&quot;,&quot;name&quot;:&quot;Se connecter à SeS&quot;,&quot;table&quot;:{&quot;columns&quot;:[{&quot;id&quot;:&quot;l09EGx8p5l07ecJqAtFAvP3xf01fHYWd&quot;,&quot;kind&quot;:&quot;STEP&quot;}],&quot;decisions&quot;:[{&quot;id&quot;:&quot;3SJSydkTs5O5uhvsWUbaPaWWB8U91AkI&quot;,&quot;cells&quot;:{&quot;l09EGx8p5l07ecJqAtFAvP3xf01fHYWd&quot;:{&quot;kind&quot;:&quot;operation&quot;,&quot;operations&quot;:[{&quot;id&quot;:&quot;zlQNT8Tm8tzQqOxFvQRCeWsfmJx9HHyh&quot;,&quot;highLevel&quot;:{&quot;action&quot;:{&quot;items&quot;:[{&quot;kind&quot;:&quot;text&quot;,&quot;value&quot;:&quot;Se connecter à SeS&quot;}]},&quot;result&quot;:{&quot;items&quot;:[]}}}]}}}]},&quot;bounds&quot;:[149,140,141,50]}],&quot;connections&quot;:[{&quot;id&quot;:&quot;797e11e07a8f11ecbb76e93fdf98a1ed&quot;,&quot;source&quot;:&quot;5b6dd7807a8f11ecbb76e93fdf98a1ed&quot;,&quot;target&quot;:&quot;6a6839107a8f11ecbb76e93fdf98a1ed&quot;},{&quot;id&quot;:&quot;89c147207a8f11ecbb76e93fdf98a1ed&quot;,&quot;source&quot;:&quot;6a6839107a8f11ecbb76e93fdf98a1ed&quot;,&quot;target&quot;:&quot;81507b107a8f11ecbb76e93fdf98a1ed&quot;},{&quot;id&quot;:&quot;922282d07a8f11ecbb76e93fdf98a1ed&quot;,&quot;source&quot;:&quot;81507b107a8f11ecbb76e93fdf98a1ed&quot;,&quot;target&quot;:&quot;5b6f5e207a8f11ecbb76e93fdf98a1ed&quot;},{&quot;id&quot;:&quot;2h3zN2Fw4sfpQai78d5n35jJNHdIVeIw&quot;,&quot;source&quot;:&quot;474c08817a8f11ecbe198f212798e408&quot;,&quot;target&quot;:&quot;FcLFkbWoCmyEvciTfKRi2Zp1J1VDz7jp&quot;},{&quot;id&quot;:&quot;wiYH5lJHltFwVhq28By9kt8k7aIUyBr7&quot;,&quot;source&quot;:&quot;FcLFkbWoCmyEvciTfKRi2Zp1J1VDz7jp&quot;,&quot;target&quot;:&quot;5b6dd7807a8f11ecbb76e93fdf98a1ed&quot;}]}"/>
-      <metadata key="jiraWorkflow_Status" value="MODIFIED"/>
-      <flowElements xsi:type="yest:StartPoint" id="474c08817a8f11ecbe198f212798e408" name="début" outgoings="2h3zN2Fw4sfpQai78d5n35jJNHdIVeIw"/>
-      <flowElements xsi:type="yest:Task" id="5b6dd7807a8f11ecbb76e93fdf98a1ed" name="Accéder à la catégorie de produit" incomings="wiYH5lJHltFwVhq28By9kt8k7aIUyBr7" outgoings="797e11e07a8f11ecbb76e93fdf98a1ed">
-        <metadata key="#!Jira!#LinkedIssues" value="{&quot;32650&quot;:{&quot;key&quot;:&quot;PROJIRA-258&quot;,&quot;summary&quot;:&quot;SeS_Gestion des catégories&quot;,&quot;baseUrl&quot;:&quot;https://jira.smartesting.com&quot;}}"/>
-        <table>
-          <columns xsi:type="yest:OperationColumn" id="SOWKQjGuRs8fP3wzl0s3jhhfAcOkqG3k"/>
-          <decisions id="JIN4bEwmQNGEKMeeCO6Mc8001SZ3mJMC">
-            <cells key="SOWKQjGuRs8fP3wzl0s3jhhfAcOkqG3k">
-              <value xsi:type="yest:OperationCell">
-                <operations reference="P8aRGJMjeSbmoq22LguJvJCIe1pZ7F5O"/>
-              </value>
-            </cells>
-          </decisions>
-        </table>
-      </flowElements>
-      <flowElements xsi:type="yest:Task" id="6a6839107a8f11ecbb76e93fdf98a1ed" name="Vérifier l'affichage du descriptif de la catégorie" incomings="797e11e07a8f11ecbb76e93fdf98a1ed" outgoings="89c147207a8f11ecbb76e93fdf98a1ed">
-        <metadata key="#!Jira!#LinkedIssues" value="{&quot;32650&quot;:{&quot;key&quot;:&quot;PROJIRA-258&quot;,&quot;summary&quot;:&quot;SeS_Gestion des catégories&quot;,&quot;baseUrl&quot;:&quot;https://jira.smartesting.com&quot;}}"/>
-        <table>
-          <columns xsi:type="yest:OperationColumn" id="jv4t97xFBVGam6WmIoamomKWRPbmKcwL"/>
-          <decisions id="e9PwQD9bLhc8m8NZ2QgPDJ3RDHTdeXPD">
-            <cells key="jv4t97xFBVGam6WmIoamomKWRPbmKcwL">
-              <value xsi:type="yest:OperationCell">
-                <operations reference="0uVdt5Uab9WqdIXYQGnN2gshQMgh3MZT"/>
-              </value>
-            </cells>
-          </decisions>
-        </table>
-      </flowElements>
-      <flowElements xsi:type="yest:Task" id="81507b107a8f11ecbb76e93fdf98a1ed" name="Vérifier la liste des produits affichés" incomings="89c147207a8f11ecbb76e93fdf98a1ed" outgoings="922282d07a8f11ecbb76e93fdf98a1ed">
-        <metadata key="#!Jira!#LinkedIssues" value="{&quot;32649&quot;:{&quot;key&quot;:&quot;PROJIRA-257&quot;,&quot;summary&quot;:&quot;SeS_Gestion des produits&quot;,&quot;baseUrl&quot;:&quot;https://jira.smartesting.com&quot;}}"/>
-        <table>
-          <columns xsi:type="yest:OperationColumn" id="43lCSKyYyx32ZMU2LyM4vzec6HoNl7Q8"/>
-          <decisions id="fCA4sKOs93LMAmfZqpyR0FeF9ty4VnHv">
-            <cells key="43lCSKyYyx32ZMU2LyM4vzec6HoNl7Q8">
-              <value xsi:type="yest:OperationCell">
-                <operations reference="WuWBs97fNtbRG9AbloG039QZg41v2UpY"/>
-              </value>
-            </cells>
-          </decisions>
-        </table>
-      </flowElements>
-      <flowElements xsi:type="yest:EndPoint" id="5b6f5e207a8f11ecbb76e93fdf98a1ed" name="" incomings="922282d07a8f11ecbb76e93fdf98a1ed"/>
-      <flowElements xsi:type="yest:Task" id="FcLFkbWoCmyEvciTfKRi2Zp1J1VDz7jp" name="Se connecter à SeS" incomings="2h3zN2Fw4sfpQai78d5n35jJNHdIVeIw" outgoings="wiYH5lJHltFwVhq28By9kt8k7aIUyBr7">
-        <metadata key="#!Jira!#LinkedIssues" value="{&quot;32639&quot;:{&quot;key&quot;:&quot;PROJIRA-247&quot;,&quot;summary&quot;:&quot;SeS_Connexion à SeS&quot;,&quot;baseUrl&quot;:&quot;https://jira.smartesting.com&quot;}}"/>
-        <table>
-          <columns xsi:type="yest:OperationColumn" id="l09EGx8p5l07ecJqAtFAvP3xf01fHYWd"/>
-          <decisions id="3SJSydkTs5O5uhvsWUbaPaWWB8U91AkI">
-            <cells key="l09EGx8p5l07ecJqAtFAvP3xf01fHYWd">
-              <value xsi:type="yest:OperationCell">
-                <operations reference="vfbSQBQMenT9lUlhuys52tdreTHg3c0f"/>
-              </value>
-            </cells>
-          </decisions>
-        </table>
-      </flowElements>
-      <flowElements xsi:type="yest:SequenceFlow" id="797e11e07a8f11ecbb76e93fdf98a1ed" name="" target="6a6839107a8f11ecbb76e93fdf98a1ed" source="5b6dd7807a8f11ecbb76e93fdf98a1ed"/>
-      <flowElements xsi:type="yest:SequenceFlow" id="89c147207a8f11ecbb76e93fdf98a1ed" name="" target="81507b107a8f11ecbb76e93fdf98a1ed" source="6a6839107a8f11ecbb76e93fdf98a1ed"/>
-      <flowElements xsi:type="yest:SequenceFlow" id="922282d07a8f11ecbb76e93fdf98a1ed" name="" target="5b6f5e207a8f11ecbb76e93fdf98a1ed" source="81507b107a8f11ecbb76e93fdf98a1ed"/>
-      <flowElements xsi:type="yest:SequenceFlow" id="2h3zN2Fw4sfpQai78d5n35jJNHdIVeIw" name="" target="FcLFkbWoCmyEvciTfKRi2Zp1J1VDz7jp" source="474c08817a8f11ecbe198f212798e408"/>
-      <flowElements xsi:type="yest:SequenceFlow" id="wiYH5lJHltFwVhq28By9kt8k7aIUyBr7" name="" target="5b6dd7807a8f11ecbb76e93fdf98a1ed" source="FcLFkbWoCmyEvciTfKRi2Zp1J1VDz7jp"/>
-      <diagram visible="true" gridUnit="-1" diagramTypeId="com.smartesting.metamodel.WorkflowDiagram" name="SeS_Vérifier une/les catégorie(s) de produits" pictogramLinks="//@subFolders.1/@testElements.1/@diagram/@children.0/@link //@subFolders.1/@testElements.1/@diagram/@children.2/@link //@subFolders.1/@testElements.1/@diagram/@children.3/@link //@subFolders.1/@testElements.1/@diagram/@children.4/@link //@subFolders.1/@testElements.1/@diagram/@children.5/@link //@subFolders.1/@testElements.1/@diagram/@children.6/@link //@subFolders.1/@testElements.1/@diagram/@connections.0/@link //@subFolders.1/@testElements.1/@diagram/@connections.1/@link //@subFolders.1/@testElements.1/@diagram/@connections.2/@link //@subFolders.1/@testElements.1/@diagram/@connections.3/@link //@subFolders.1/@testElements.1/@diagram/@connections.4/@link" version="0.16.0">
+      <diagram visible="true" gridUnit="-1" diagramTypeId="com.smartesting.metamodel.WorkflowDiagram" name="SeS_Vérifier les menus de SeS" pictogramLinks="//@subFolders.1/@testElements.1/@diagram/@children.0/@link //@subFolders.1/@testElements.1/@diagram/@children.2/@link //@subFolders.1/@testElements.1/@diagram/@children.3/@link //@subFolders.1/@testElements.1/@diagram/@children.4/@link //@subFolders.1/@testElements.1/@diagram/@children.5/@link //@subFolders.1/@testElements.1/@diagram/@children.6/@link //@subFolders.1/@testElements.1/@diagram/@connections.0/@link //@subFolders.1/@testElements.1/@diagram/@connections.1/@link //@subFolders.1/@testElements.1/@diagram/@connections.2/@link //@subFolders.1/@testElements.1/@diagram/@connections.3/@link //@subFolders.1/@testElements.1/@diagram/@connections.4/@link" version="0.16.0">
         <graphicsAlgorithm xsi:type="al:Rectangle" background="//@subFolders.1/@testElements.1/@diagram/@styles.0/@renderingStyle/@adaptedGradientColoredAreas/@adaptedGradientColoredAreas.0/@gradientColor.0/@end/@color" foreground="//@subFolders.1/@testElements.1/@diagram/@colors.0" lineWidth="1" transparency="0.0" width="1000" height="1000"/>
-        <children xsi:type="yest:StartPointShape" visible="true" active="true" flowNode="474c08817a8f11ecbe198f212798e408" labelShape="//@subFolders.1/@testElements.1/@diagram/@children.1">
-          <graphicsAlgorithm xsi:type="al:Ellipse" foreground="//@subFolders.1/@testElements.1/@diagram/@colors.1" lineWidth="2" transparency="0.0" width="31" height="31" x="204" y="89" style="//@subFolders.1/@testElements.1/@diagram/@styles.0"/>
-          <link businessObjects="474c08817a8f11ecbe198f212798e408"/>
-          <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@subFolders.1/@testElements.1/@diagram/@connections.3"/>
+        <children xsi:type="yest:StartPointShape" visible="true" active="true" flowNode="cc27caa17a8d11ecbe198f212798e408" labelShape="//@subFolders.1/@testElements.1/@diagram/@children.1">
+          <graphicsAlgorithm xsi:type="al:Ellipse" foreground="//@subFolders.1/@testElements.1/@diagram/@colors.1" lineWidth="2" transparency="0.0" width="31" height="31" x="150" y="100" style="//@subFolders.1/@testElements.1/@diagram/@styles.0"/>
+          <link businessObjects="cc27caa17a8d11ecbe198f212798e408"/>
+          <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@subFolders.1/@testElements.1/@diagram/@connections.2"/>
         </children>
         <children xsi:type="yest:LabelShape" visible="true" active="true" text="//@subFolders.1/@testElements.1/@diagram/@children.1/@children.0/@graphicsAlgorithm" labelled="//@subFolders.1/@testElements.1/@diagram/@children.0">
-          <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="40" height="20" x="154" y="89"/>
+          <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="40" height="20" x="100" y="100"/>
           <children xsi:type="pi:ContainerShape" visible="true">
             <graphicsAlgorithm xsi:type="al:Text" foreground="//@subFolders.1/@testElements.1/@diagram/@colors.2" lineWidth="1" filled="false" transparency="0.0" width="40" height="20" font="//@subFolders.1/@testElements.1/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="début"/>
           </children>
         </children>
-        <children xsi:type="yest:TaskShape" visible="true" active="true" text="//@subFolders.1/@testElements.1/@diagram/@children.2/@children.0/@graphicsAlgorithm" flowNode="5b6dd7807a8f11ecbb76e93fdf98a1ed">
-          <graphicsAlgorithm xsi:type="al:RoundedRectangle" foreground="//@subFolders.1/@testElements.1/@diagram/@colors.3" lineWidth="2" filled="true" transparency="0.0" width="147" height="50" x="146" y="209" style="//@subFolders.1/@testElements.1/@diagram/@styles.1" cornerHeight="20" cornerWidth="20"/>
-          <link businessObjects="5b6dd7807a8f11ecbb76e93fdf98a1ed"/>
-          <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@subFolders.1/@testElements.1/@diagram/@connections.0" incomingConnections="//@subFolders.1/@testElements.1/@diagram/@connections.4"/>
+        <children xsi:type="yest:TaskShape" visible="true" active="true" text="//@subFolders.1/@testElements.1/@diagram/@children.2/@children.0/@graphicsAlgorithm" flowNode="cc32ee307a8d11ecbe198f212798e408">
+          <graphicsAlgorithm xsi:type="al:RoundedRectangle" foreground="//@subFolders.1/@testElements.1/@diagram/@colors.3" lineWidth="2" filled="true" transparency="0.0" width="100" height="50" x="115" y="277" style="//@subFolders.1/@testElements.1/@diagram/@styles.1" cornerHeight="20" cornerWidth="20"/>
+          <link businessObjects="cc32ee307a8d11ecbe198f212798e408"/>
+          <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@subFolders.1/@testElements.1/@diagram/@connections.0" incomingConnections="//@subFolders.1/@testElements.1/@diagram/@connections.3"/>
           <children xsi:type="pi:ContainerShape" visible="true">
-            <graphicsAlgorithm xsi:type="al:Text" foreground="//@subFolders.1/@testElements.1/@diagram/@colors.2" lineWidth="1" filled="false" transparency="0.0" width="133" height="36" x="7" y="7" font="//@subFolders.1/@testElements.1/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Accéder à la catégorie de&#xD;&#xA;produit"/>
+            <graphicsAlgorithm xsi:type="al:Text" foreground="//@subFolders.1/@testElements.1/@diagram/@colors.2" lineWidth="1" filled="false" transparency="0.0" width="86" height="36" x="7" y="7" font="//@subFolders.1/@testElements.1/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Vérifier les&#xD;&#xA;menus présents"/>
           </children>
         </children>
-        <children xsi:type="yest:TaskShape" visible="true" active="true" text="//@subFolders.1/@testElements.1/@diagram/@children.3/@children.0/@graphicsAlgorithm" flowNode="6a6839107a8f11ecbb76e93fdf98a1ed">
-          <graphicsAlgorithm xsi:type="al:RoundedRectangle" foreground="//@subFolders.1/@testElements.1/@diagram/@colors.3" lineWidth="2" filled="true" transparency="0.0" width="190" height="50" x="124" y="286" style="//@subFolders.1/@testElements.1/@diagram/@styles.2" cornerHeight="20" cornerWidth="20"/>
-          <link businessObjects="6a6839107a8f11ecbb76e93fdf98a1ed"/>
-          <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@subFolders.1/@testElements.1/@diagram/@connections.1" incomingConnections="//@subFolders.1/@testElements.1/@diagram/@connections.0"/>
+        <children xsi:type="yest:TaskShape" visible="true" active="true" text="//@subFolders.1/@testElements.1/@diagram/@children.3/@children.0/@graphicsAlgorithm" flowNode="e424ff107a8d11ecbe198f212798e408">
+          <graphicsAlgorithm xsi:type="al:RoundedRectangle" foreground="//@subFolders.1/@testElements.1/@diagram/@colors.3" lineWidth="2" filled="true" transparency="0.0" width="164" height="73" x="83" y="351" style="//@subFolders.1/@testElements.1/@diagram/@styles.2" cornerHeight="20" cornerWidth="20"/>
+          <link businessObjects="e424ff107a8d11ecbe198f212798e408"/>
+          <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@subFolders.1/@testElements.1/@diagram/@connections.4" incomingConnections="//@subFolders.1/@testElements.1/@diagram/@connections.0"/>
           <children xsi:type="pi:ContainerShape" visible="true">
-            <graphicsAlgorithm xsi:type="al:Text" foreground="//@subFolders.1/@testElements.1/@diagram/@colors.2" lineWidth="1" filled="false" transparency="0.0" width="176" height="36" x="7" y="7" font="//@subFolders.1/@testElements.1/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Vérifier l'affichage du descriptif&#xD;&#xA;de la catégorie"/>
+            <graphicsAlgorithm xsi:type="al:Text" foreground="//@subFolders.1/@testElements.1/@diagram/@colors.2" lineWidth="1" filled="false" transparency="0.0" width="150" height="59" x="7" y="7" font="//@subFolders.1/@testElements.1/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Vérifier que tous  les menus&#xD;&#xA;permettent d'accéder aux&#xD;&#xA;catégories de produits"/>
           </children>
         </children>
-        <children xsi:type="yest:TaskShape" visible="true" active="true" text="//@subFolders.1/@testElements.1/@diagram/@children.4/@children.0/@graphicsAlgorithm" flowNode="81507b107a8f11ecbb76e93fdf98a1ed">
-          <graphicsAlgorithm xsi:type="al:RoundedRectangle" foreground="//@subFolders.1/@testElements.1/@diagram/@colors.3" lineWidth="2" filled="true" transparency="0.0" width="147" height="50" x="146" y="376" style="//@subFolders.1/@testElements.1/@diagram/@styles.3" cornerHeight="20" cornerWidth="20"/>
-          <link businessObjects="81507b107a8f11ecbb76e93fdf98a1ed"/>
-          <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@subFolders.1/@testElements.1/@diagram/@connections.2" incomingConnections="//@subFolders.1/@testElements.1/@diagram/@connections.1"/>
+        <children xsi:type="yest:TaskShape" visible="true" active="true" text="//@subFolders.1/@testElements.1/@diagram/@children.4/@children.0/@graphicsAlgorithm" flowNode="180666207a8e11ecbe198f212798e408">
+          <graphicsAlgorithm xsi:type="al:RoundedRectangle" foreground="//@subFolders.1/@testElements.1/@diagram/@colors.3" lineWidth="2" filled="true" transparency="0.0" width="100" height="50" x="115" y="447" style="//@subFolders.1/@testElements.1/@diagram/@styles.3" cornerHeight="20" cornerWidth="20"/>
+          <link businessObjects="180666207a8e11ecbe198f212798e408"/>
+          <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@subFolders.1/@testElements.1/@diagram/@connections.1" incomingConnections="//@subFolders.1/@testElements.1/@diagram/@connections.4"/>
           <children xsi:type="pi:ContainerShape" visible="true">
-            <graphicsAlgorithm xsi:type="al:Text" foreground="//@subFolders.1/@testElements.1/@diagram/@colors.2" lineWidth="1" filled="false" transparency="0.0" width="133" height="36" x="7" y="7" font="//@subFolders.1/@testElements.1/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Vérifier la liste des&#xD;&#xA;produits affichés"/>
+            <graphicsAlgorithm xsi:type="al:Text" foreground="//@subFolders.1/@testElements.1/@diagram/@colors.2" lineWidth="1" filled="false" transparency="0.0" width="86" height="36" x="7" y="7" font="//@subFolders.1/@testElements.1/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Aller sur la page&#xD;&#xA;d'accueil"/>
           </children>
         </children>
-        <children xsi:type="yest:EndPointShape" visible="true" active="true" flowNode="5b6f5e207a8f11ecbb76e93fdf98a1ed">
-          <graphicsAlgorithm xsi:type="al:Ellipse" foreground="//@subFolders.1/@testElements.1/@diagram/@colors.4" lineWidth="4" transparency="0.0" width="31" height="31" x="204" y="471" style="//@subFolders.1/@testElements.1/@diagram/@styles.4"/>
-          <link businessObjects="5b6f5e207a8f11ecbb76e93fdf98a1ed"/>
-          <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@subFolders.1/@testElements.1/@diagram/@connections.2"/>
+        <children xsi:type="yest:EndPointShape" visible="true" active="true" flowNode="cc3511107a8d11ecbe198f212798e408">
+          <graphicsAlgorithm xsi:type="al:Ellipse" foreground="//@subFolders.1/@testElements.1/@diagram/@colors.4" lineWidth="4" transparency="0.0" width="31" height="31" x="150" y="524" style="//@subFolders.1/@testElements.1/@diagram/@styles.4"/>
+          <link businessObjects="cc3511107a8d11ecbe198f212798e408"/>
+          <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@subFolders.1/@testElements.1/@diagram/@connections.1"/>
         </children>
-        <children xsi:type="yest:TaskShape" visible="true" active="true" text="//@subFolders.1/@testElements.1/@diagram/@children.6/@children.0/@graphicsAlgorithm" flowNode="FcLFkbWoCmyEvciTfKRi2Zp1J1VDz7jp">
-          <graphicsAlgorithm xsi:type="al:RoundedRectangle" foreground="//@subFolders.1/@testElements.1/@diagram/@colors.3" lineWidth="2" filled="true" transparency="0.0" width="141" height="50" x="149" y="140" style="//@subFolders.1/@testElements.1/@diagram/@styles.5" cornerHeight="20" cornerWidth="20"/>
-          <link businessObjects="FcLFkbWoCmyEvciTfKRi2Zp1J1VDz7jp"/>
-          <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@subFolders.1/@testElements.1/@diagram/@connections.4" incomingConnections="//@subFolders.1/@testElements.1/@diagram/@connections.3"/>
+        <children xsi:type="yest:TaskShape" visible="true" active="true" text="//@subFolders.1/@testElements.1/@diagram/@children.6/@children.0/@graphicsAlgorithm" flowNode="JnLuaI87s3nKSoPvZs9HXkFXziZnv8ys">
+          <graphicsAlgorithm xsi:type="al:RoundedRectangle" foreground="//@subFolders.1/@testElements.1/@diagram/@colors.3" lineWidth="2" filled="true" transparency="0.0" width="141" height="50" x="94" y="192" style="//@subFolders.1/@testElements.1/@diagram/@styles.5" cornerHeight="20" cornerWidth="20"/>
+          <link businessObjects="JnLuaI87s3nKSoPvZs9HXkFXziZnv8ys"/>
+          <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@subFolders.1/@testElements.1/@diagram/@connections.3" incomingConnections="//@subFolders.1/@testElements.1/@diagram/@connections.2"/>
           <children xsi:type="pi:ContainerShape" visible="true">
             <graphicsAlgorithm xsi:type="al:Text" foreground="//@subFolders.1/@testElements.1/@diagram/@colors.2" lineWidth="1" filled="false" transparency="0.0" width="127" height="36" x="7" y="7" font="//@subFolders.1/@testElements.1/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Se connecter à SeS"/>
           </children>
@@ -1680,9 +1816,9 @@
             </adaptedGradientColoredAreas>
           </renderingStyle>
         </styles>
-        <connections xsi:type="yest:SequenceFlowConnection" visible="true" active="true" start="//@subFolders.1/@testElements.1/@diagram/@children.2/@anchors.0" end="//@subFolders.1/@testElements.1/@diagram/@children.3/@anchors.0" sequenceFlow="797e11e07a8f11ecbb76e93fdf98a1ed">
+        <connections xsi:type="yest:SequenceFlowConnection" visible="true" active="true" start="//@subFolders.1/@testElements.1/@diagram/@children.2/@anchors.0" end="//@subFolders.1/@testElements.1/@diagram/@children.3/@anchors.0" sequenceFlow="0297a4c07a8e11ecbe198f212798e408">
           <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@subFolders.1/@testElements.1/@diagram/@colors.2" lineWidth="1" lineStyle="UNSPECIFIED"/>
-          <link businessObjects="797e11e07a8f11ecbb76e93fdf98a1ed"/>
+          <link businessObjects="0297a4c07a8e11ecbe198f212798e408"/>
           <connectionDecorators visible="true" locationRelative="true" location="1.0">
             <graphicsAlgorithm xsi:type="al:Polygon" background="//@subFolders.1/@testElements.1/@diagram/@colors.2" foreground="//@subFolders.1/@testElements.1/@diagram/@colors.2" lineWidth="1" filled="true" transparency="0.0">
               <points x="-6" y="3"/>
@@ -1691,9 +1827,9 @@
             </graphicsAlgorithm>
           </connectionDecorators>
         </connections>
-        <connections xsi:type="yest:SequenceFlowConnection" visible="true" active="true" start="//@subFolders.1/@testElements.1/@diagram/@children.3/@anchors.0" end="//@subFolders.1/@testElements.1/@diagram/@children.4/@anchors.0" sequenceFlow="89c147207a8f11ecbb76e93fdf98a1ed">
+        <connections xsi:type="yest:SequenceFlowConnection" visible="true" active="true" start="//@subFolders.1/@testElements.1/@diagram/@children.4/@anchors.0" end="//@subFolders.1/@testElements.1/@diagram/@children.5/@anchors.0" sequenceFlow="4331ec607a8f11ecbe198f212798e408">
           <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@subFolders.1/@testElements.1/@diagram/@colors.2" lineWidth="1" lineStyle="UNSPECIFIED"/>
-          <link businessObjects="89c147207a8f11ecbb76e93fdf98a1ed"/>
+          <link businessObjects="4331ec607a8f11ecbe198f212798e408"/>
           <connectionDecorators visible="true" locationRelative="true" location="1.0">
             <graphicsAlgorithm xsi:type="al:Polygon" background="//@subFolders.1/@testElements.1/@diagram/@colors.2" foreground="//@subFolders.1/@testElements.1/@diagram/@colors.2" lineWidth="1" filled="true" transparency="0.0">
               <points x="-6" y="3"/>
@@ -1702,9 +1838,9 @@
             </graphicsAlgorithm>
           </connectionDecorators>
         </connections>
-        <connections xsi:type="yest:SequenceFlowConnection" visible="true" active="true" start="//@subFolders.1/@testElements.1/@diagram/@children.4/@anchors.0" end="//@subFolders.1/@testElements.1/@diagram/@children.5/@anchors.0" sequenceFlow="922282d07a8f11ecbb76e93fdf98a1ed">
+        <connections xsi:type="yest:SequenceFlowConnection" visible="true" active="true" start="//@subFolders.1/@testElements.1/@diagram/@children.0/@anchors.0" end="//@subFolders.1/@testElements.1/@diagram/@children.6/@anchors.0" sequenceFlow="5XIA7ZyTawzfP7GHUbcCag1WyGkODuuO">
           <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@subFolders.1/@testElements.1/@diagram/@colors.2" lineWidth="1" lineStyle="UNSPECIFIED"/>
-          <link businessObjects="922282d07a8f11ecbb76e93fdf98a1ed"/>
+          <link businessObjects="5XIA7ZyTawzfP7GHUbcCag1WyGkODuuO"/>
           <connectionDecorators visible="true" locationRelative="true" location="1.0">
             <graphicsAlgorithm xsi:type="al:Polygon" background="//@subFolders.1/@testElements.1/@diagram/@colors.2" foreground="//@subFolders.1/@testElements.1/@diagram/@colors.2" lineWidth="1" filled="true" transparency="0.0">
               <points x="-6" y="3"/>
@@ -1713,9 +1849,9 @@
             </graphicsAlgorithm>
           </connectionDecorators>
         </connections>
-        <connections xsi:type="yest:SequenceFlowConnection" visible="true" active="true" start="//@subFolders.1/@testElements.1/@diagram/@children.0/@anchors.0" end="//@subFolders.1/@testElements.1/@diagram/@children.6/@anchors.0" sequenceFlow="2h3zN2Fw4sfpQai78d5n35jJNHdIVeIw">
+        <connections xsi:type="yest:SequenceFlowConnection" visible="true" active="true" start="//@subFolders.1/@testElements.1/@diagram/@children.6/@anchors.0" end="//@subFolders.1/@testElements.1/@diagram/@children.2/@anchors.0" sequenceFlow="NSoTBEqOoIUjqtIZugeTtgGrgtYOy6k0">
           <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@subFolders.1/@testElements.1/@diagram/@colors.2" lineWidth="1" lineStyle="UNSPECIFIED"/>
-          <link businessObjects="2h3zN2Fw4sfpQai78d5n35jJNHdIVeIw"/>
+          <link businessObjects="NSoTBEqOoIUjqtIZugeTtgGrgtYOy6k0"/>
           <connectionDecorators visible="true" locationRelative="true" location="1.0">
             <graphicsAlgorithm xsi:type="al:Polygon" background="//@subFolders.1/@testElements.1/@diagram/@colors.2" foreground="//@subFolders.1/@testElements.1/@diagram/@colors.2" lineWidth="1" filled="true" transparency="0.0">
               <points x="-6" y="3"/>
@@ -1724,9 +1860,9 @@
             </graphicsAlgorithm>
           </connectionDecorators>
         </connections>
-        <connections xsi:type="yest:SequenceFlowConnection" visible="true" active="true" start="//@subFolders.1/@testElements.1/@diagram/@children.6/@anchors.0" end="//@subFolders.1/@testElements.1/@diagram/@children.2/@anchors.0" sequenceFlow="wiYH5lJHltFwVhq28By9kt8k7aIUyBr7">
+        <connections xsi:type="yest:SequenceFlowConnection" visible="true" active="true" start="//@subFolders.1/@testElements.1/@diagram/@children.3/@anchors.0" end="//@subFolders.1/@testElements.1/@diagram/@children.4/@anchors.0" sequenceFlow="urWM1W1j4dtvTV0JxbBtAtr3peb1vTx0">
           <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@subFolders.1/@testElements.1/@diagram/@colors.2" lineWidth="1" lineStyle="UNSPECIFIED"/>
-          <link businessObjects="wiYH5lJHltFwVhq28By9kt8k7aIUyBr7"/>
+          <link businessObjects="urWM1W1j4dtvTV0JxbBtAtr3peb1vTx0"/>
           <connectionDecorators visible="true" locationRelative="true" location="1.0">
             <graphicsAlgorithm xsi:type="al:Polygon" background="//@subFolders.1/@testElements.1/@diagram/@colors.2" foreground="//@subFolders.1/@testElements.1/@diagram/@colors.2" lineWidth="1" filled="true" transparency="0.0">
               <points x="-6" y="3"/>
@@ -1743,23 +1879,24 @@
         <fonts name="Segoe UI" size="9"/>
       </diagram>
     </testElements>
-    <testElements xsi:type="yest:Workflow" id="d4e32ce07a9011ec97abfd7169699f07" name="SeS_Vérifier un produit">
-      <metadata key="jiraWorkflow_Key" value="PROJIRA-250"/>
-      <metadata key="jiraWorkflow_Summary" value="SeS_Vérifier un produit"/>
+    <testElements xsi:type="yest:Workflow" id="ab9344707a8f11ecbb76e93fdf98a1ed" name="SeS_Vérifier une/les catégorie(s) de produits">
+      <metadata key="jiraWorkflow_Key" value="PROJIRA-249"/>
+      <metadata key="jiraWorkflow_Summary" value="SeS_Vérifier une/les catégorie(s) de produits"/>
       <metadata key="jiraWorkflow_ProjectId" value="PROJIRA"/>
       <metadata key="jiraWorkflow_ProjectName" value="Projet Assurance auto_Elo"/>
       <metadata key="jiraWorkflow_IssueTypeId" value="10100"/>
-      <metadata key="jiraWorkflow_UserUrl" value="https://jira.smartesting.com/browse/PROJIRA-250"/>
+      <metadata key="jiraWorkflow_UserUrl" value="https://jira.smartesting.com/browse/PROJIRA-249"/>
       <metadata key="jiraWorkflow_Fields" value="{}"/>
-      <metadata key="jiraWorkflow_WorkflowVersion" value="9"/>
-      <metadata key="jiraWorkflow_WorkflowContent" value="{&quot;id&quot;:&quot;d4e32ce07a9011ec97abfd7169699f07&quot;,&quot;yest4JiraVersion&quot;:2,&quot;groups&quot;:[],&quot;nodes&quot;:[{&quot;type&quot;:&quot;start&quot;,&quot;id&quot;:&quot;6b31d5317a9011ec97abfd7169699f07&quot;,&quot;name&quot;:&quot;début&quot;,&quot;bounds&quot;:[424,68,31,31],&quot;label&quot;:{&quot;bounds&quot;:[374,68,40,20]}},{&quot;type&quot;:&quot;task&quot;,&quot;id&quot;:&quot;6b3fdef07a9011ec97abfd7169699f07&quot;,&quot;name&quot;:&quot;Accéder à la catégorie de produit&quot;,&quot;table&quot;:{&quot;columns&quot;:[{&quot;id&quot;:&quot;xsILHYEU3ieAz1WO8grpZ6LpnRJAx8sD&quot;,&quot;kind&quot;:&quot;STEP&quot;}],&quot;decisions&quot;:[{&quot;id&quot;:&quot;WveDofBJibKDBZ0x9kFDeVFDBeKILDPs&quot;,&quot;cells&quot;:{&quot;xsILHYEU3ieAz1WO8grpZ6LpnRJAx8sD&quot;:{&quot;kind&quot;:&quot;operation&quot;,&quot;operations&quot;:[{&quot;id&quot;:&quot;P8aRGJMjeSbmoq22LguJvJCIe1pZ7F5O&quot;,&quot;highLevel&quot;:{&quot;action&quot;:{&quot;items&quot;:[{&quot;kind&quot;:&quot;text&quot;,&quot;value&quot;:&quot;Accéder à la catégorie de produit&quot;}]},&quot;result&quot;:{&quot;items&quot;:[{&quot;kind&quot;:&quot;text&quot;,&quot;value&quot;:&quot;La catégorie est affichée&quot;}]}}}]}}}]},&quot;bounds&quot;:[352,188,175,50]},{&quot;type&quot;:&quot;task&quot;,&quot;id&quot;:&quot;b8e901407a9011ec97abfd7169699f07&quot;,&quot;name&quot;:&quot;Cliquer sur un produit pour y accéder&quot;,&quot;table&quot;:{&quot;columns&quot;:[{&quot;id&quot;:&quot;BAO89APWu3W8ay60J2Q3CiNACdffrGdE&quot;,&quot;kind&quot;:&quot;STEP&quot;}],&quot;decisions&quot;:[{&quot;id&quot;:&quot;ZuQPU0Rz4oH0Cm721wXKTOwcKB6wKPDX&quot;,&quot;cells&quot;:{&quot;BAO89APWu3W8ay60J2Q3CiNACdffrGdE&quot;:{&quot;kind&quot;:&quot;operation&quot;,&quot;operations&quot;:[{&quot;id&quot;:&quot;UMvePzInDl3Ob4AlyJ7y27YidmrHCFP9&quot;,&quot;highLevel&quot;:{&quot;action&quot;:{&quot;items&quot;:[{&quot;kind&quot;:&quot;text&quot;,&quot;value&quot;:&quot;Cliquer sur un produit pour y accéder&quot;}]},&quot;result&quot;:{&quot;items&quot;:[]}}}]}}}]},&quot;bounds&quot;:[358,271,163,50]},{&quot;type&quot;:&quot;task&quot;,&quot;id&quot;:&quot;c6b961c07a9011ec97abfd7169699f07&quot;,&quot;name&quot;:&quot;Vérifier les informations du produit&quot;,&quot;table&quot;:{&quot;columns&quot;:[{&quot;id&quot;:&quot;189zZhhKuB0Uuj8EvMYImdeIgVNdpkkx&quot;,&quot;kind&quot;:&quot;STEP&quot;}],&quot;decisions&quot;:[{&quot;id&quot;:&quot;4Azsepvc0VaOUjHvBEeFORPkVxb6oFq2&quot;,&quot;cells&quot;:{&quot;189zZhhKuB0Uuj8EvMYImdeIgVNdpkkx&quot;:{&quot;kind&quot;:&quot;operation&quot;,&quot;operations&quot;:[{&quot;id&quot;:&quot;ivo5KBfj3WiMLw5RBy7gMtaV0BSViXN7&quot;,&quot;highLevel&quot;:{&quot;action&quot;:{&quot;items&quot;:[{&quot;kind&quot;:&quot;text&quot;,&quot;value&quot;:&quot;Vérifier les informations du produit&quot;}]},&quot;result&quot;:{&quot;items&quot;:[]}}}]}}}]},&quot;bounds&quot;:[359,360,156,50]},{&quot;type&quot;:&quot;end&quot;,&quot;id&quot;:&quot;6b424ff07a9011ec97abfd7169699f07&quot;,&quot;bounds&quot;:[421,500,31,31]},{&quot;type&quot;:&quot;task&quot;,&quot;id&quot;:&quot;28QRL1BWycPFc96sNgRiqEguGRKZ6Kp7&quot;,&quot;name&quot;:&quot;Aller sur la page d'accueil&quot;,&quot;table&quot;:{&quot;columns&quot;:[{&quot;id&quot;:&quot;1ApGzRYr6pehFZlWnm24QaQQ6cEKJv4U&quot;,&quot;kind&quot;:&quot;STEP&quot;}],&quot;decisions&quot;:[{&quot;id&quot;:&quot;UFygLVDsWNmjRDSiSJBUZuEBT04KJFpm&quot;,&quot;cells&quot;:{&quot;1ApGzRYr6pehFZlWnm24QaQQ6cEKJv4U&quot;:{&quot;kind&quot;:&quot;operation&quot;,&quot;operations&quot;:[{&quot;id&quot;:&quot;USrylCS1zmjhomhmomwjNOeSoWOTnC4k&quot;,&quot;highLevel&quot;:{&quot;action&quot;:{&quot;items&quot;:[{&quot;kind&quot;:&quot;text&quot;,&quot;value&quot;:&quot;Aller sur la page d'accueil&quot;}]},&quot;result&quot;:{&quot;items&quot;:[]}}}]}}}]},&quot;bounds&quot;:[387,431,100,50]},{&quot;type&quot;:&quot;task&quot;,&quot;linkedIssues&quot;:{&quot;32639&quot;:{&quot;key&quot;:&quot;PROJIRA-247&quot;,&quot;summary&quot;:&quot;SeS_Connexion à SeS&quot;,&quot;baseUrl&quot;:&quot;https://jira.smartesting.com&quot;}},&quot;id&quot;:&quot;CPpNxVOtTsaVpd7pMPX9k9fKtOfBnTMZ&quot;,&quot;name&quot;:&quot;Se connecter à SeS&quot;,&quot;table&quot;:{&quot;columns&quot;:[{&quot;id&quot;:&quot;GcdE4SkJnGoU1ulyRvRBU02FC9FRWAN8&quot;,&quot;kind&quot;:&quot;STEP&quot;}],&quot;decisions&quot;:[{&quot;id&quot;:&quot;9dGuIA57VTCn2OYIEojbod9ZMxBd8hB0&quot;,&quot;cells&quot;:{&quot;GcdE4SkJnGoU1ulyRvRBU02FC9FRWAN8&quot;:{&quot;kind&quot;:&quot;operation&quot;,&quot;operations&quot;:[{&quot;id&quot;:&quot;zlQNT8Tm8tzQqOxFvQRCeWsfmJx9HHyh&quot;,&quot;highLevel&quot;:{&quot;action&quot;:{&quot;items&quot;:[{&quot;kind&quot;:&quot;text&quot;,&quot;value&quot;:&quot;Se connecter à SeS&quot;}]},&quot;result&quot;:{&quot;items&quot;:[]}}}]}}}]},&quot;bounds&quot;:[369,114,141,50]}],&quot;connections&quot;:[{&quot;id&quot;:&quot;c1e56b807a9011ec97abfd7169699f07&quot;,&quot;source&quot;:&quot;6b3fdef07a9011ec97abfd7169699f07&quot;,&quot;target&quot;:&quot;b8e901407a9011ec97abfd7169699f07&quot;},{&quot;id&quot;:&quot;cf577f607a9011ec97abfd7169699f07&quot;,&quot;source&quot;:&quot;b8e901407a9011ec97abfd7169699f07&quot;,&quot;target&quot;:&quot;c6b961c07a9011ec97abfd7169699f07&quot;},{&quot;id&quot;:&quot;4xsMr8ZbV3d9rqxPVzoZTdeIwKqZAnUT&quot;,&quot;source&quot;:&quot;c6b961c07a9011ec97abfd7169699f07&quot;,&quot;target&quot;:&quot;28QRL1BWycPFc96sNgRiqEguGRKZ6Kp7&quot;},{&quot;id&quot;:&quot;5IfkllqMxtmKyiSEpRn5TaWdlbkRKKkm&quot;,&quot;source&quot;:&quot;28QRL1BWycPFc96sNgRiqEguGRKZ6Kp7&quot;,&quot;target&quot;:&quot;6b424ff07a9011ec97abfd7169699f07&quot;},{&quot;id&quot;:&quot;WZdIOVo4yAmyayTp00Bzx9mTZyPJZIHX&quot;,&quot;source&quot;:&quot;6b31d5317a9011ec97abfd7169699f07&quot;,&quot;target&quot;:&quot;CPpNxVOtTsaVpd7pMPX9k9fKtOfBnTMZ&quot;},{&quot;id&quot;:&quot;KgLaZO79clb17290cLBV2Bx7i3Id1d7A&quot;,&quot;source&quot;:&quot;CPpNxVOtTsaVpd7pMPX9k9fKtOfBnTMZ&quot;,&quot;target&quot;:&quot;6b3fdef07a9011ec97abfd7169699f07&quot;}]}"/>
+      <metadata key="jiraWorkflow_WorkflowVersion" value="13"/>
+      <metadata key="jiraWorkflow_WorkflowContent" value="{&quot;id&quot;:&quot;ab9344707a8f11ecbb76e93fdf98a1ed&quot;,&quot;yest4JiraVersion&quot;:2,&quot;groups&quot;:[],&quot;nodes&quot;:[{&quot;type&quot;:&quot;start&quot;,&quot;id&quot;:&quot;474c08817a8f11ecbe198f212798e408&quot;,&quot;name&quot;:&quot;début&quot;,&quot;bounds&quot;:[204,89,31,31],&quot;label&quot;:{&quot;bounds&quot;:[154,89,40,20]}},{&quot;type&quot;:&quot;task&quot;,&quot;linkedIssues&quot;:{&quot;32650&quot;:{&quot;key&quot;:&quot;PROJIRA-258&quot;,&quot;summary&quot;:&quot;SeS_Gestion des catégories&quot;,&quot;baseUrl&quot;:&quot;https://jira.smartesting.com&quot;}},&quot;id&quot;:&quot;5b6dd7807a8f11ecbb76e93fdf98a1ed&quot;,&quot;name&quot;:&quot;Accéder à la catégorie de produit&quot;,&quot;table&quot;:{&quot;columns&quot;:[{&quot;id&quot;:&quot;SOWKQjGuRs8fP3wzl0s3jhhfAcOkqG3k&quot;,&quot;kind&quot;:&quot;STEP&quot;}],&quot;decisions&quot;:[{&quot;id&quot;:&quot;JIN4bEwmQNGEKMeeCO6Mc8001SZ3mJMC&quot;,&quot;cells&quot;:{&quot;SOWKQjGuRs8fP3wzl0s3jhhfAcOkqG3k&quot;:{&quot;kind&quot;:&quot;operation&quot;,&quot;operations&quot;:[{&quot;id&quot;:&quot;P8aRGJMjeSbmoq22LguJvJCIe1pZ7F5O&quot;,&quot;highLevel&quot;:{&quot;action&quot;:{&quot;items&quot;:[{&quot;kind&quot;:&quot;text&quot;,&quot;value&quot;:&quot;Accéder à la catégorie de produit&quot;}]},&quot;result&quot;:{&quot;items&quot;:[{&quot;kind&quot;:&quot;text&quot;,&quot;value&quot;:&quot;La catégorie est affichée&quot;}]}}}]}}}]},&quot;bounds&quot;:[146,209,147,50]},{&quot;type&quot;:&quot;task&quot;,&quot;linkedIssues&quot;:{&quot;32650&quot;:{&quot;key&quot;:&quot;PROJIRA-258&quot;,&quot;summary&quot;:&quot;SeS_Gestion des catégories&quot;,&quot;baseUrl&quot;:&quot;https://jira.smartesting.com&quot;}},&quot;id&quot;:&quot;6a6839107a8f11ecbb76e93fdf98a1ed&quot;,&quot;name&quot;:&quot;Vérifier l'affichage du descriptif de la catégorie&quot;,&quot;table&quot;:{&quot;columns&quot;:[{&quot;id&quot;:&quot;jv4t97xFBVGam6WmIoamomKWRPbmKcwL&quot;,&quot;kind&quot;:&quot;STEP&quot;}],&quot;decisions&quot;:[{&quot;id&quot;:&quot;e9PwQD9bLhc8m8NZ2QgPDJ3RDHTdeXPD&quot;,&quot;cells&quot;:{&quot;jv4t97xFBVGam6WmIoamomKWRPbmKcwL&quot;:{&quot;kind&quot;:&quot;operation&quot;,&quot;operations&quot;:[{&quot;id&quot;:&quot;0uVdt5Uab9WqdIXYQGnN2gshQMgh3MZT&quot;,&quot;highLevel&quot;:{&quot;action&quot;:{&quot;items&quot;:[{&quot;kind&quot;:&quot;text&quot;,&quot;value&quot;:&quot;Vérifier l'affichage du descriptif de la catégorie&quot;}]},&quot;result&quot;:{&quot;items&quot;:[]}}}]}}}]},&quot;bounds&quot;:[124,286,190,50]},{&quot;type&quot;:&quot;task&quot;,&quot;linkedIssues&quot;:{&quot;32649&quot;:{&quot;key&quot;:&quot;PROJIRA-257&quot;,&quot;summary&quot;:&quot;SeS_Gestion des produits&quot;,&quot;baseUrl&quot;:&quot;https://jira.smartesting.com&quot;}},&quot;id&quot;:&quot;81507b107a8f11ecbb76e93fdf98a1ed&quot;,&quot;name&quot;:&quot;Vérifier la liste des produits affichés&quot;,&quot;table&quot;:{&quot;columns&quot;:[{&quot;id&quot;:&quot;43lCSKyYyx32ZMU2LyM4vzec6HoNl7Q8&quot;,&quot;kind&quot;:&quot;STEP&quot;}],&quot;decisions&quot;:[{&quot;id&quot;:&quot;fCA4sKOs93LMAmfZqpyR0FeF9ty4VnHv&quot;,&quot;cells&quot;:{&quot;43lCSKyYyx32ZMU2LyM4vzec6HoNl7Q8&quot;:{&quot;kind&quot;:&quot;operation&quot;,&quot;operations&quot;:[{&quot;id&quot;:&quot;WuWBs97fNtbRG9AbloG039QZg41v2UpY&quot;,&quot;highLevel&quot;:{&quot;action&quot;:{&quot;items&quot;:[{&quot;kind&quot;:&quot;text&quot;,&quot;value&quot;:&quot;Vérifier la liste des produits affichés&quot;}]},&quot;result&quot;:{&quot;items&quot;:[]}}}]}}}]},&quot;bounds&quot;:[146,376,147,50]},{&quot;type&quot;:&quot;end&quot;,&quot;id&quot;:&quot;5b6f5e207a8f11ecbb76e93fdf98a1ed&quot;,&quot;bounds&quot;:[204,471,31,31]},{&quot;type&quot;:&quot;task&quot;,&quot;linkedIssues&quot;:{&quot;32639&quot;:{&quot;key&quot;:&quot;PROJIRA-247&quot;,&quot;summary&quot;:&quot;SeS_Connexion à SeS&quot;,&quot;baseUrl&quot;:&quot;https://jira.smartesting.com&quot;}},&quot;id&quot;:&quot;FcLFkbWoCmyEvciTfKRi2Zp1J1VDz7jp&quot;,&quot;name&quot;:&quot;Se connecter à SeS&quot;,&quot;table&quot;:{&quot;columns&quot;:[{&quot;id&quot;:&quot;l09EGx8p5l07ecJqAtFAvP3xf01fHYWd&quot;,&quot;kind&quot;:&quot;STEP&quot;}],&quot;decisions&quot;:[{&quot;id&quot;:&quot;3SJSydkTs5O5uhvsWUbaPaWWB8U91AkI&quot;,&quot;cells&quot;:{&quot;l09EGx8p5l07ecJqAtFAvP3xf01fHYWd&quot;:{&quot;kind&quot;:&quot;operation&quot;,&quot;operations&quot;:[{&quot;id&quot;:&quot;zlQNT8Tm8tzQqOxFvQRCeWsfmJx9HHyh&quot;,&quot;highLevel&quot;:{&quot;action&quot;:{&quot;items&quot;:[{&quot;kind&quot;:&quot;text&quot;,&quot;value&quot;:&quot;Se connecter à SeS&quot;}]},&quot;result&quot;:{&quot;items&quot;:[]}}}]}}}]},&quot;bounds&quot;:[149,140,141,50]}],&quot;connections&quot;:[{&quot;id&quot;:&quot;797e11e07a8f11ecbb76e93fdf98a1ed&quot;,&quot;source&quot;:&quot;5b6dd7807a8f11ecbb76e93fdf98a1ed&quot;,&quot;target&quot;:&quot;6a6839107a8f11ecbb76e93fdf98a1ed&quot;},{&quot;id&quot;:&quot;89c147207a8f11ecbb76e93fdf98a1ed&quot;,&quot;source&quot;:&quot;6a6839107a8f11ecbb76e93fdf98a1ed&quot;,&quot;target&quot;:&quot;81507b107a8f11ecbb76e93fdf98a1ed&quot;},{&quot;id&quot;:&quot;922282d07a8f11ecbb76e93fdf98a1ed&quot;,&quot;source&quot;:&quot;81507b107a8f11ecbb76e93fdf98a1ed&quot;,&quot;target&quot;:&quot;5b6f5e207a8f11ecbb76e93fdf98a1ed&quot;},{&quot;id&quot;:&quot;2h3zN2Fw4sfpQai78d5n35jJNHdIVeIw&quot;,&quot;source&quot;:&quot;474c08817a8f11ecbe198f212798e408&quot;,&quot;target&quot;:&quot;FcLFkbWoCmyEvciTfKRi2Zp1J1VDz7jp&quot;},{&quot;id&quot;:&quot;wiYH5lJHltFwVhq28By9kt8k7aIUyBr7&quot;,&quot;source&quot;:&quot;FcLFkbWoCmyEvciTfKRi2Zp1J1VDz7jp&quot;,&quot;target&quot;:&quot;5b6dd7807a8f11ecbb76e93fdf98a1ed&quot;}]}"/>
       <metadata key="jiraWorkflow_Status" value="MODIFIED"/>
-      <flowElements xsi:type="yest:StartPoint" id="6b31d5317a9011ec97abfd7169699f07" name="début" outgoings="WZdIOVo4yAmyayTp00Bzx9mTZyPJZIHX"/>
-      <flowElements xsi:type="yest:Task" id="6b3fdef07a9011ec97abfd7169699f07" name="Accéder à la catégorie de produit" incomings="KgLaZO79clb17290cLBV2Bx7i3Id1d7A" outgoings="c1e56b807a9011ec97abfd7169699f07">
+      <flowElements xsi:type="yest:StartPoint" id="474c08817a8f11ecbe198f212798e408" name="début" outgoings="2h3zN2Fw4sfpQai78d5n35jJNHdIVeIw"/>
+      <flowElements xsi:type="yest:Task" id="5b6dd7807a8f11ecbb76e93fdf98a1ed" name="Accéder à la catégorie de produit" incomings="wiYH5lJHltFwVhq28By9kt8k7aIUyBr7" outgoings="797e11e07a8f11ecbb76e93fdf98a1ed">
+        <metadata key="#!Jira!#LinkedIssues" value="{&quot;32650&quot;:{&quot;key&quot;:&quot;PROJIRA-258&quot;,&quot;summary&quot;:&quot;SeS_Gestion des catégories&quot;,&quot;baseUrl&quot;:&quot;https://jira.smartesting.com&quot;}}"/>
         <table>
-          <columns xsi:type="yest:OperationColumn" id="xsILHYEU3ieAz1WO8grpZ6LpnRJAx8sD"/>
-          <decisions id="WveDofBJibKDBZ0x9kFDeVFDBeKILDPs">
-            <cells key="xsILHYEU3ieAz1WO8grpZ6LpnRJAx8sD">
+          <columns xsi:type="yest:OperationColumn" id="SOWKQjGuRs8fP3wzl0s3jhhfAcOkqG3k"/>
+          <decisions id="JIN4bEwmQNGEKMeeCO6Mc8001SZ3mJMC">
+            <cells key="SOWKQjGuRs8fP3wzl0s3jhhfAcOkqG3k">
               <value xsi:type="yest:OperationCell">
                 <operations reference="P8aRGJMjeSbmoq22LguJvJCIe1pZ7F5O"/>
               </value>
@@ -1767,116 +1904,97 @@
           </decisions>
         </table>
       </flowElements>
-      <flowElements xsi:type="yest:Task" id="b8e901407a9011ec97abfd7169699f07" name="Cliquer sur un produit pour y accéder" incomings="c1e56b807a9011ec97abfd7169699f07" outgoings="cf577f607a9011ec97abfd7169699f07">
+      <flowElements xsi:type="yest:Task" id="6a6839107a8f11ecbb76e93fdf98a1ed" name="Vérifier l'affichage du descriptif de la catégorie" incomings="797e11e07a8f11ecbb76e93fdf98a1ed" outgoings="89c147207a8f11ecbb76e93fdf98a1ed">
+        <metadata key="#!Jira!#LinkedIssues" value="{&quot;32650&quot;:{&quot;key&quot;:&quot;PROJIRA-258&quot;,&quot;summary&quot;:&quot;SeS_Gestion des catégories&quot;,&quot;baseUrl&quot;:&quot;https://jira.smartesting.com&quot;}}"/>
         <table>
-          <columns xsi:type="yest:OperationColumn" id="BAO89APWu3W8ay60J2Q3CiNACdffrGdE"/>
-          <decisions id="ZuQPU0Rz4oH0Cm721wXKTOwcKB6wKPDX">
-            <cells key="BAO89APWu3W8ay60J2Q3CiNACdffrGdE">
+          <columns xsi:type="yest:OperationColumn" id="jv4t97xFBVGam6WmIoamomKWRPbmKcwL"/>
+          <decisions id="e9PwQD9bLhc8m8NZ2QgPDJ3RDHTdeXPD">
+            <cells key="jv4t97xFBVGam6WmIoamomKWRPbmKcwL">
               <value xsi:type="yest:OperationCell">
-                <operations reference="UMvePzInDl3Ob4AlyJ7y27YidmrHCFP9"/>
+                <operations reference="0uVdt5Uab9WqdIXYQGnN2gshQMgh3MZT"/>
               </value>
             </cells>
           </decisions>
         </table>
       </flowElements>
-      <flowElements xsi:type="yest:Task" id="c6b961c07a9011ec97abfd7169699f07" name="Vérifier les informations du produit" incomings="cf577f607a9011ec97abfd7169699f07" outgoings="4xsMr8ZbV3d9rqxPVzoZTdeIwKqZAnUT">
+      <flowElements xsi:type="yest:Task" id="81507b107a8f11ecbb76e93fdf98a1ed" name="Vérifier la liste des produits affichés" incomings="89c147207a8f11ecbb76e93fdf98a1ed" outgoings="922282d07a8f11ecbb76e93fdf98a1ed">
+        <metadata key="#!Jira!#LinkedIssues" value="{&quot;32649&quot;:{&quot;key&quot;:&quot;PROJIRA-257&quot;,&quot;summary&quot;:&quot;SeS_Gestion des produits&quot;,&quot;baseUrl&quot;:&quot;https://jira.smartesting.com&quot;}}"/>
         <table>
-          <columns xsi:type="yest:OperationColumn" id="189zZhhKuB0Uuj8EvMYImdeIgVNdpkkx"/>
-          <decisions id="4Azsepvc0VaOUjHvBEeFORPkVxb6oFq2">
-            <cells key="189zZhhKuB0Uuj8EvMYImdeIgVNdpkkx">
+          <columns xsi:type="yest:OperationColumn" id="43lCSKyYyx32ZMU2LyM4vzec6HoNl7Q8"/>
+          <decisions id="fCA4sKOs93LMAmfZqpyR0FeF9ty4VnHv">
+            <cells key="43lCSKyYyx32ZMU2LyM4vzec6HoNl7Q8">
               <value xsi:type="yest:OperationCell">
-                <operations reference="ivo5KBfj3WiMLw5RBy7gMtaV0BSViXN7"/>
+                <operations reference="WuWBs97fNtbRG9AbloG039QZg41v2UpY"/>
               </value>
             </cells>
           </decisions>
         </table>
       </flowElements>
-      <flowElements xsi:type="yest:EndPoint" id="6b424ff07a9011ec97abfd7169699f07" name="" incomings="5IfkllqMxtmKyiSEpRn5TaWdlbkRKKkm"/>
-      <flowElements xsi:type="yest:Task" id="28QRL1BWycPFc96sNgRiqEguGRKZ6Kp7" name="Aller sur la page d'accueil" incomings="4xsMr8ZbV3d9rqxPVzoZTdeIwKqZAnUT" outgoings="5IfkllqMxtmKyiSEpRn5TaWdlbkRKKkm">
-        <table>
-          <columns xsi:type="yest:OperationColumn" id="1ApGzRYr6pehFZlWnm24QaQQ6cEKJv4U"/>
-          <decisions id="UFygLVDsWNmjRDSiSJBUZuEBT04KJFpm">
-            <cells key="1ApGzRYr6pehFZlWnm24QaQQ6cEKJv4U">
-              <value xsi:type="yest:OperationCell">
-                <operations reference="USrylCS1zmjhomhmomwjNOeSoWOTnC4k"/>
-              </value>
-            </cells>
-          </decisions>
-        </table>
-      </flowElements>
-      <flowElements xsi:type="yest:Task" id="CPpNxVOtTsaVpd7pMPX9k9fKtOfBnTMZ" name="Se connecter à SeS" incomings="WZdIOVo4yAmyayTp00Bzx9mTZyPJZIHX" outgoings="KgLaZO79clb17290cLBV2Bx7i3Id1d7A">
+      <flowElements xsi:type="yest:EndPoint" id="5b6f5e207a8f11ecbb76e93fdf98a1ed" name="" incomings="922282d07a8f11ecbb76e93fdf98a1ed"/>
+      <flowElements xsi:type="yest:Task" id="FcLFkbWoCmyEvciTfKRi2Zp1J1VDz7jp" name="Se connecter à SeS" incomings="2h3zN2Fw4sfpQai78d5n35jJNHdIVeIw" outgoings="wiYH5lJHltFwVhq28By9kt8k7aIUyBr7">
         <metadata key="#!Jira!#LinkedIssues" value="{&quot;32639&quot;:{&quot;key&quot;:&quot;PROJIRA-247&quot;,&quot;summary&quot;:&quot;SeS_Connexion à SeS&quot;,&quot;baseUrl&quot;:&quot;https://jira.smartesting.com&quot;}}"/>
         <table>
-          <columns xsi:type="yest:OperationColumn" id="GcdE4SkJnGoU1ulyRvRBU02FC9FRWAN8"/>
-          <decisions id="9dGuIA57VTCn2OYIEojbod9ZMxBd8hB0">
-            <cells key="GcdE4SkJnGoU1ulyRvRBU02FC9FRWAN8">
+          <columns xsi:type="yest:OperationColumn" id="l09EGx8p5l07ecJqAtFAvP3xf01fHYWd"/>
+          <decisions id="3SJSydkTs5O5uhvsWUbaPaWWB8U91AkI">
+            <cells key="l09EGx8p5l07ecJqAtFAvP3xf01fHYWd">
               <value xsi:type="yest:OperationCell">
-                <operations reference="vfbSQBQMenT9lUlhuys52tdreTHg3c0f"/>
+                <operations reference="KuPjboR1if1VyGPmUNzLEDr0iNvn9fUT"/>
               </value>
             </cells>
           </decisions>
         </table>
       </flowElements>
-      <flowElements xsi:type="yest:SequenceFlow" id="c1e56b807a9011ec97abfd7169699f07" name="" target="b8e901407a9011ec97abfd7169699f07" source="6b3fdef07a9011ec97abfd7169699f07"/>
-      <flowElements xsi:type="yest:SequenceFlow" id="cf577f607a9011ec97abfd7169699f07" name="" target="c6b961c07a9011ec97abfd7169699f07" source="b8e901407a9011ec97abfd7169699f07"/>
-      <flowElements xsi:type="yest:SequenceFlow" id="4xsMr8ZbV3d9rqxPVzoZTdeIwKqZAnUT" name="" target="28QRL1BWycPFc96sNgRiqEguGRKZ6Kp7" source="c6b961c07a9011ec97abfd7169699f07"/>
-      <flowElements xsi:type="yest:SequenceFlow" id="5IfkllqMxtmKyiSEpRn5TaWdlbkRKKkm" name="" target="6b424ff07a9011ec97abfd7169699f07" source="28QRL1BWycPFc96sNgRiqEguGRKZ6Kp7"/>
-      <flowElements xsi:type="yest:SequenceFlow" id="WZdIOVo4yAmyayTp00Bzx9mTZyPJZIHX" name="" target="CPpNxVOtTsaVpd7pMPX9k9fKtOfBnTMZ" source="6b31d5317a9011ec97abfd7169699f07"/>
-      <flowElements xsi:type="yest:SequenceFlow" id="KgLaZO79clb17290cLBV2Bx7i3Id1d7A" name="" target="6b3fdef07a9011ec97abfd7169699f07" source="CPpNxVOtTsaVpd7pMPX9k9fKtOfBnTMZ"/>
-      <diagram visible="true" gridUnit="-1" diagramTypeId="com.smartesting.metamodel.WorkflowDiagram" name="SeS_Vérifier un produit" pictogramLinks="//@subFolders.1/@testElements.2/@diagram/@children.0/@link //@subFolders.1/@testElements.2/@diagram/@children.2/@link //@subFolders.1/@testElements.2/@diagram/@children.3/@link //@subFolders.1/@testElements.2/@diagram/@children.4/@link //@subFolders.1/@testElements.2/@diagram/@children.5/@link //@subFolders.1/@testElements.2/@diagram/@children.6/@link //@subFolders.1/@testElements.2/@diagram/@children.7/@link //@subFolders.1/@testElements.2/@diagram/@connections.0/@link //@subFolders.1/@testElements.2/@diagram/@connections.1/@link //@subFolders.1/@testElements.2/@diagram/@connections.2/@link //@subFolders.1/@testElements.2/@diagram/@connections.3/@link //@subFolders.1/@testElements.2/@diagram/@connections.4/@link //@subFolders.1/@testElements.2/@diagram/@connections.5/@link" version="0.16.0">
+      <flowElements xsi:type="yest:SequenceFlow" id="797e11e07a8f11ecbb76e93fdf98a1ed" name="" target="6a6839107a8f11ecbb76e93fdf98a1ed" source="5b6dd7807a8f11ecbb76e93fdf98a1ed"/>
+      <flowElements xsi:type="yest:SequenceFlow" id="89c147207a8f11ecbb76e93fdf98a1ed" name="" target="81507b107a8f11ecbb76e93fdf98a1ed" source="6a6839107a8f11ecbb76e93fdf98a1ed"/>
+      <flowElements xsi:type="yest:SequenceFlow" id="922282d07a8f11ecbb76e93fdf98a1ed" name="" target="5b6f5e207a8f11ecbb76e93fdf98a1ed" source="81507b107a8f11ecbb76e93fdf98a1ed"/>
+      <flowElements xsi:type="yest:SequenceFlow" id="2h3zN2Fw4sfpQai78d5n35jJNHdIVeIw" name="" target="FcLFkbWoCmyEvciTfKRi2Zp1J1VDz7jp" source="474c08817a8f11ecbe198f212798e408"/>
+      <flowElements xsi:type="yest:SequenceFlow" id="wiYH5lJHltFwVhq28By9kt8k7aIUyBr7" name="" target="5b6dd7807a8f11ecbb76e93fdf98a1ed" source="FcLFkbWoCmyEvciTfKRi2Zp1J1VDz7jp"/>
+      <diagram visible="true" gridUnit="-1" diagramTypeId="com.smartesting.metamodel.WorkflowDiagram" name="SeS_Vérifier une/les catégorie(s) de produits" pictogramLinks="//@subFolders.1/@testElements.2/@diagram/@children.0/@link //@subFolders.1/@testElements.2/@diagram/@children.2/@link //@subFolders.1/@testElements.2/@diagram/@children.3/@link //@subFolders.1/@testElements.2/@diagram/@children.4/@link //@subFolders.1/@testElements.2/@diagram/@children.5/@link //@subFolders.1/@testElements.2/@diagram/@children.6/@link //@subFolders.1/@testElements.2/@diagram/@connections.0/@link //@subFolders.1/@testElements.2/@diagram/@connections.1/@link //@subFolders.1/@testElements.2/@diagram/@connections.2/@link //@subFolders.1/@testElements.2/@diagram/@connections.3/@link //@subFolders.1/@testElements.2/@diagram/@connections.4/@link" version="0.16.0">
         <graphicsAlgorithm xsi:type="al:Rectangle" background="//@subFolders.1/@testElements.2/@diagram/@styles.0/@renderingStyle/@adaptedGradientColoredAreas/@adaptedGradientColoredAreas.0/@gradientColor.0/@end/@color" foreground="//@subFolders.1/@testElements.2/@diagram/@colors.0" lineWidth="1" transparency="0.0" width="1000" height="1000"/>
-        <children xsi:type="yest:StartPointShape" visible="true" active="true" flowNode="6b31d5317a9011ec97abfd7169699f07" labelShape="//@subFolders.1/@testElements.2/@diagram/@children.1">
-          <graphicsAlgorithm xsi:type="al:Ellipse" foreground="//@subFolders.1/@testElements.2/@diagram/@colors.1" lineWidth="2" transparency="0.0" width="31" height="31" x="424" y="68" style="//@subFolders.1/@testElements.2/@diagram/@styles.0"/>
-          <link businessObjects="6b31d5317a9011ec97abfd7169699f07"/>
-          <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@subFolders.1/@testElements.2/@diagram/@connections.4"/>
+        <children xsi:type="yest:StartPointShape" visible="true" active="true" flowNode="474c08817a8f11ecbe198f212798e408" labelShape="//@subFolders.1/@testElements.2/@diagram/@children.1">
+          <graphicsAlgorithm xsi:type="al:Ellipse" foreground="//@subFolders.1/@testElements.2/@diagram/@colors.1" lineWidth="2" transparency="0.0" width="31" height="31" x="204" y="89" style="//@subFolders.1/@testElements.2/@diagram/@styles.0"/>
+          <link businessObjects="474c08817a8f11ecbe198f212798e408"/>
+          <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@subFolders.1/@testElements.2/@diagram/@connections.3"/>
         </children>
         <children xsi:type="yest:LabelShape" visible="true" active="true" text="//@subFolders.1/@testElements.2/@diagram/@children.1/@children.0/@graphicsAlgorithm" labelled="//@subFolders.1/@testElements.2/@diagram/@children.0">
-          <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="40" height="20" x="374" y="68"/>
+          <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="40" height="20" x="154" y="89"/>
           <children xsi:type="pi:ContainerShape" visible="true">
             <graphicsAlgorithm xsi:type="al:Text" foreground="//@subFolders.1/@testElements.2/@diagram/@colors.2" lineWidth="1" filled="false" transparency="0.0" width="40" height="20" font="//@subFolders.1/@testElements.2/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="début"/>
           </children>
         </children>
-        <children xsi:type="yest:TaskShape" visible="true" active="true" text="//@subFolders.1/@testElements.2/@diagram/@children.2/@children.0/@graphicsAlgorithm" flowNode="6b3fdef07a9011ec97abfd7169699f07">
-          <graphicsAlgorithm xsi:type="al:RoundedRectangle" foreground="//@subFolders.1/@testElements.2/@diagram/@colors.3" lineWidth="2" filled="true" transparency="0.0" width="175" height="50" x="352" y="188" style="//@subFolders.1/@testElements.2/@diagram/@styles.1" cornerHeight="20" cornerWidth="20"/>
-          <link businessObjects="6b3fdef07a9011ec97abfd7169699f07"/>
-          <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@subFolders.1/@testElements.2/@diagram/@connections.0" incomingConnections="//@subFolders.1/@testElements.2/@diagram/@connections.5"/>
+        <children xsi:type="yest:TaskShape" visible="true" active="true" text="//@subFolders.1/@testElements.2/@diagram/@children.2/@children.0/@graphicsAlgorithm" flowNode="5b6dd7807a8f11ecbb76e93fdf98a1ed">
+          <graphicsAlgorithm xsi:type="al:RoundedRectangle" foreground="//@subFolders.1/@testElements.2/@diagram/@colors.3" lineWidth="2" filled="true" transparency="0.0" width="147" height="50" x="146" y="209" style="//@subFolders.1/@testElements.2/@diagram/@styles.1" cornerHeight="20" cornerWidth="20"/>
+          <link businessObjects="5b6dd7807a8f11ecbb76e93fdf98a1ed"/>
+          <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@subFolders.1/@testElements.2/@diagram/@connections.0" incomingConnections="//@subFolders.1/@testElements.2/@diagram/@connections.4"/>
           <children xsi:type="pi:ContainerShape" visible="true">
-            <graphicsAlgorithm xsi:type="al:Text" foreground="//@subFolders.1/@testElements.2/@diagram/@colors.2" lineWidth="1" filled="false" transparency="0.0" width="161" height="36" x="7" y="7" font="//@subFolders.1/@testElements.2/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Accéder à la catégorie de&#xD;&#xA;produit"/>
+            <graphicsAlgorithm xsi:type="al:Text" foreground="//@subFolders.1/@testElements.2/@diagram/@colors.2" lineWidth="1" filled="false" transparency="0.0" width="133" height="36" x="7" y="7" font="//@subFolders.1/@testElements.2/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Accéder à la catégorie de&#xD;&#xA;produit"/>
           </children>
         </children>
-        <children xsi:type="yest:TaskShape" visible="true" active="true" text="//@subFolders.1/@testElements.2/@diagram/@children.3/@children.0/@graphicsAlgorithm" flowNode="b8e901407a9011ec97abfd7169699f07">
-          <graphicsAlgorithm xsi:type="al:RoundedRectangle" foreground="//@subFolders.1/@testElements.2/@diagram/@colors.3" lineWidth="2" filled="true" transparency="0.0" width="163" height="50" x="358" y="271" style="//@subFolders.1/@testElements.2/@diagram/@styles.2" cornerHeight="20" cornerWidth="20"/>
-          <link businessObjects="b8e901407a9011ec97abfd7169699f07"/>
+        <children xsi:type="yest:TaskShape" visible="true" active="true" text="//@subFolders.1/@testElements.2/@diagram/@children.3/@children.0/@graphicsAlgorithm" flowNode="6a6839107a8f11ecbb76e93fdf98a1ed">
+          <graphicsAlgorithm xsi:type="al:RoundedRectangle" foreground="//@subFolders.1/@testElements.2/@diagram/@colors.3" lineWidth="2" filled="true" transparency="0.0" width="190" height="50" x="124" y="286" style="//@subFolders.1/@testElements.2/@diagram/@styles.2" cornerHeight="20" cornerWidth="20"/>
+          <link businessObjects="6a6839107a8f11ecbb76e93fdf98a1ed"/>
           <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@subFolders.1/@testElements.2/@diagram/@connections.1" incomingConnections="//@subFolders.1/@testElements.2/@diagram/@connections.0"/>
           <children xsi:type="pi:ContainerShape" visible="true">
-            <graphicsAlgorithm xsi:type="al:Text" foreground="//@subFolders.1/@testElements.2/@diagram/@colors.2" lineWidth="1" filled="false" transparency="0.0" width="149" height="36" x="7" y="7" font="//@subFolders.1/@testElements.2/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Cliquer sur un produit pour&#xD;&#xA;y accéder"/>
+            <graphicsAlgorithm xsi:type="al:Text" foreground="//@subFolders.1/@testElements.2/@diagram/@colors.2" lineWidth="1" filled="false" transparency="0.0" width="176" height="36" x="7" y="7" font="//@subFolders.1/@testElements.2/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Vérifier l'affichage du descriptif&#xD;&#xA;de la catégorie"/>
           </children>
         </children>
-        <children xsi:type="yest:TaskShape" visible="true" active="true" text="//@subFolders.1/@testElements.2/@diagram/@children.4/@children.0/@graphicsAlgorithm" flowNode="c6b961c07a9011ec97abfd7169699f07">
-          <graphicsAlgorithm xsi:type="al:RoundedRectangle" foreground="//@subFolders.1/@testElements.2/@diagram/@colors.3" lineWidth="2" filled="true" transparency="0.0" width="156" height="50" x="359" y="360" style="//@subFolders.1/@testElements.2/@diagram/@styles.3" cornerHeight="20" cornerWidth="20"/>
-          <link businessObjects="c6b961c07a9011ec97abfd7169699f07"/>
+        <children xsi:type="yest:TaskShape" visible="true" active="true" text="//@subFolders.1/@testElements.2/@diagram/@children.4/@children.0/@graphicsAlgorithm" flowNode="81507b107a8f11ecbb76e93fdf98a1ed">
+          <graphicsAlgorithm xsi:type="al:RoundedRectangle" foreground="//@subFolders.1/@testElements.2/@diagram/@colors.3" lineWidth="2" filled="true" transparency="0.0" width="147" height="50" x="146" y="376" style="//@subFolders.1/@testElements.2/@diagram/@styles.3" cornerHeight="20" cornerWidth="20"/>
+          <link businessObjects="81507b107a8f11ecbb76e93fdf98a1ed"/>
           <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@subFolders.1/@testElements.2/@diagram/@connections.2" incomingConnections="//@subFolders.1/@testElements.2/@diagram/@connections.1"/>
           <children xsi:type="pi:ContainerShape" visible="true">
-            <graphicsAlgorithm xsi:type="al:Text" foreground="//@subFolders.1/@testElements.2/@diagram/@colors.2" lineWidth="1" filled="false" transparency="0.0" width="142" height="36" x="7" y="7" font="//@subFolders.1/@testElements.2/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Vérifier les informations du&#xD;&#xA;produit"/>
+            <graphicsAlgorithm xsi:type="al:Text" foreground="//@subFolders.1/@testElements.2/@diagram/@colors.2" lineWidth="1" filled="false" transparency="0.0" width="133" height="36" x="7" y="7" font="//@subFolders.1/@testElements.2/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Vérifier la liste des&#xD;&#xA;produits affichés"/>
           </children>
         </children>
-        <children xsi:type="yest:EndPointShape" visible="true" active="true" flowNode="6b424ff07a9011ec97abfd7169699f07">
-          <graphicsAlgorithm xsi:type="al:Ellipse" foreground="//@subFolders.1/@testElements.2/@diagram/@colors.4" lineWidth="4" transparency="0.0" width="31" height="31" x="421" y="500" style="//@subFolders.1/@testElements.2/@diagram/@styles.4"/>
-          <link businessObjects="6b424ff07a9011ec97abfd7169699f07"/>
-          <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@subFolders.1/@testElements.2/@diagram/@connections.3"/>
+        <children xsi:type="yest:EndPointShape" visible="true" active="true" flowNode="5b6f5e207a8f11ecbb76e93fdf98a1ed">
+          <graphicsAlgorithm xsi:type="al:Ellipse" foreground="//@subFolders.1/@testElements.2/@diagram/@colors.4" lineWidth="4" transparency="0.0" width="31" height="31" x="204" y="471" style="//@subFolders.1/@testElements.2/@diagram/@styles.4"/>
+          <link businessObjects="5b6f5e207a8f11ecbb76e93fdf98a1ed"/>
+          <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@subFolders.1/@testElements.2/@diagram/@connections.2"/>
         </children>
-        <children xsi:type="yest:TaskShape" visible="true" active="true" text="//@subFolders.1/@testElements.2/@diagram/@children.6/@children.0/@graphicsAlgorithm" flowNode="28QRL1BWycPFc96sNgRiqEguGRKZ6Kp7">
-          <graphicsAlgorithm xsi:type="al:RoundedRectangle" foreground="//@subFolders.1/@testElements.2/@diagram/@colors.3" lineWidth="2" filled="true" transparency="0.0" width="100" height="50" x="387" y="431" style="//@subFolders.1/@testElements.2/@diagram/@styles.5" cornerHeight="20" cornerWidth="20"/>
-          <link businessObjects="28QRL1BWycPFc96sNgRiqEguGRKZ6Kp7"/>
-          <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@subFolders.1/@testElements.2/@diagram/@connections.3" incomingConnections="//@subFolders.1/@testElements.2/@diagram/@connections.2"/>
-          <children xsi:type="pi:ContainerShape" visible="true">
-            <graphicsAlgorithm xsi:type="al:Text" foreground="//@subFolders.1/@testElements.2/@diagram/@colors.2" lineWidth="1" filled="false" transparency="0.0" width="86" height="36" x="7" y="7" font="//@subFolders.1/@testElements.2/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Aller sur la page&#xD;&#xA;d'accueil"/>
-          </children>
-        </children>
-        <children xsi:type="yest:TaskShape" visible="true" active="true" text="//@subFolders.1/@testElements.2/@diagram/@children.7/@children.0/@graphicsAlgorithm" flowNode="CPpNxVOtTsaVpd7pMPX9k9fKtOfBnTMZ">
-          <graphicsAlgorithm xsi:type="al:RoundedRectangle" foreground="//@subFolders.1/@testElements.2/@diagram/@colors.3" lineWidth="2" filled="true" transparency="0.0" width="141" height="50" x="369" y="114" style="//@subFolders.1/@testElements.2/@diagram/@styles.6" cornerHeight="20" cornerWidth="20"/>
-          <link businessObjects="CPpNxVOtTsaVpd7pMPX9k9fKtOfBnTMZ"/>
-          <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@subFolders.1/@testElements.2/@diagram/@connections.5" incomingConnections="//@subFolders.1/@testElements.2/@diagram/@connections.4"/>
+        <children xsi:type="yest:TaskShape" visible="true" active="true" text="//@subFolders.1/@testElements.2/@diagram/@children.6/@children.0/@graphicsAlgorithm" flowNode="FcLFkbWoCmyEvciTfKRi2Zp1J1VDz7jp">
+          <graphicsAlgorithm xsi:type="al:RoundedRectangle" foreground="//@subFolders.1/@testElements.2/@diagram/@colors.3" lineWidth="2" filled="true" transparency="0.0" width="141" height="50" x="149" y="140" style="//@subFolders.1/@testElements.2/@diagram/@styles.5" cornerHeight="20" cornerWidth="20"/>
+          <link businessObjects="FcLFkbWoCmyEvciTfKRi2Zp1J1VDz7jp"/>
+          <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@subFolders.1/@testElements.2/@diagram/@connections.4" incomingConnections="//@subFolders.1/@testElements.2/@diagram/@connections.3"/>
           <children xsi:type="pi:ContainerShape" visible="true">
             <graphicsAlgorithm xsi:type="al:Text" foreground="//@subFolders.1/@testElements.2/@diagram/@colors.2" lineWidth="1" filled="false" transparency="0.0" width="127" height="36" x="7" y="7" font="//@subFolders.1/@testElements.2/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Se connecter à SeS"/>
           </children>
@@ -2097,45 +2215,9 @@
             </adaptedGradientColoredAreas>
           </renderingStyle>
         </styles>
-        <styles filled="true" lineVisible="true" id="shape-bg-blue-id">
-          <renderingStyle>
-            <adaptedGradientColoredAreas definedStyleId="shape-bg-blue-id" gradientType="0">
-              <adaptedGradientColoredAreas styleAdaption="0">
-                <gradientColor>
-                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
-                    <color red="200" green="227" blue="238"/>
-                  </start>
-                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
-                    <color red="255" green="255" blue="255"/>
-                  </end>
-                </gradientColor>
-              </adaptedGradientColoredAreas>
-              <adaptedGradientColoredAreas styleAdaption="1">
-                <gradientColor>
-                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
-                    <color red="200" green="227" blue="238"/>
-                  </start>
-                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
-                    <color red="200" green="227" blue="238"/>
-                  </end>
-                </gradientColor>
-              </adaptedGradientColoredAreas>
-              <adaptedGradientColoredAreas styleAdaption="2">
-                <gradientColor>
-                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
-                    <color red="200" green="227" blue="238"/>
-                  </start>
-                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
-                    <color red="200" green="227" blue="238"/>
-                  </end>
-                </gradientColor>
-              </adaptedGradientColoredAreas>
-            </adaptedGradientColoredAreas>
-          </renderingStyle>
-        </styles>
-        <connections xsi:type="yest:SequenceFlowConnection" visible="true" active="true" start="//@subFolders.1/@testElements.2/@diagram/@children.2/@anchors.0" end="//@subFolders.1/@testElements.2/@diagram/@children.3/@anchors.0" sequenceFlow="c1e56b807a9011ec97abfd7169699f07">
+        <connections xsi:type="yest:SequenceFlowConnection" visible="true" active="true" start="//@subFolders.1/@testElements.2/@diagram/@children.2/@anchors.0" end="//@subFolders.1/@testElements.2/@diagram/@children.3/@anchors.0" sequenceFlow="797e11e07a8f11ecbb76e93fdf98a1ed">
           <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@subFolders.1/@testElements.2/@diagram/@colors.2" lineWidth="1" lineStyle="UNSPECIFIED"/>
-          <link businessObjects="c1e56b807a9011ec97abfd7169699f07"/>
+          <link businessObjects="797e11e07a8f11ecbb76e93fdf98a1ed"/>
           <connectionDecorators visible="true" locationRelative="true" location="1.0">
             <graphicsAlgorithm xsi:type="al:Polygon" background="//@subFolders.1/@testElements.2/@diagram/@colors.2" foreground="//@subFolders.1/@testElements.2/@diagram/@colors.2" lineWidth="1" filled="true" transparency="0.0">
               <points x="-6" y="3"/>
@@ -2144,9 +2226,9 @@
             </graphicsAlgorithm>
           </connectionDecorators>
         </connections>
-        <connections xsi:type="yest:SequenceFlowConnection" visible="true" active="true" start="//@subFolders.1/@testElements.2/@diagram/@children.3/@anchors.0" end="//@subFolders.1/@testElements.2/@diagram/@children.4/@anchors.0" sequenceFlow="cf577f607a9011ec97abfd7169699f07">
+        <connections xsi:type="yest:SequenceFlowConnection" visible="true" active="true" start="//@subFolders.1/@testElements.2/@diagram/@children.3/@anchors.0" end="//@subFolders.1/@testElements.2/@diagram/@children.4/@anchors.0" sequenceFlow="89c147207a8f11ecbb76e93fdf98a1ed">
           <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@subFolders.1/@testElements.2/@diagram/@colors.2" lineWidth="1" lineStyle="UNSPECIFIED"/>
-          <link businessObjects="cf577f607a9011ec97abfd7169699f07"/>
+          <link businessObjects="89c147207a8f11ecbb76e93fdf98a1ed"/>
           <connectionDecorators visible="true" locationRelative="true" location="1.0">
             <graphicsAlgorithm xsi:type="al:Polygon" background="//@subFolders.1/@testElements.2/@diagram/@colors.2" foreground="//@subFolders.1/@testElements.2/@diagram/@colors.2" lineWidth="1" filled="true" transparency="0.0">
               <points x="-6" y="3"/>
@@ -2155,9 +2237,9 @@
             </graphicsAlgorithm>
           </connectionDecorators>
         </connections>
-        <connections xsi:type="yest:SequenceFlowConnection" visible="true" active="true" start="//@subFolders.1/@testElements.2/@diagram/@children.4/@anchors.0" end="//@subFolders.1/@testElements.2/@diagram/@children.6/@anchors.0" sequenceFlow="4xsMr8ZbV3d9rqxPVzoZTdeIwKqZAnUT">
+        <connections xsi:type="yest:SequenceFlowConnection" visible="true" active="true" start="//@subFolders.1/@testElements.2/@diagram/@children.4/@anchors.0" end="//@subFolders.1/@testElements.2/@diagram/@children.5/@anchors.0" sequenceFlow="922282d07a8f11ecbb76e93fdf98a1ed">
           <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@subFolders.1/@testElements.2/@diagram/@colors.2" lineWidth="1" lineStyle="UNSPECIFIED"/>
-          <link businessObjects="4xsMr8ZbV3d9rqxPVzoZTdeIwKqZAnUT"/>
+          <link businessObjects="922282d07a8f11ecbb76e93fdf98a1ed"/>
           <connectionDecorators visible="true" locationRelative="true" location="1.0">
             <graphicsAlgorithm xsi:type="al:Polygon" background="//@subFolders.1/@testElements.2/@diagram/@colors.2" foreground="//@subFolders.1/@testElements.2/@diagram/@colors.2" lineWidth="1" filled="true" transparency="0.0">
               <points x="-6" y="3"/>
@@ -2166,9 +2248,9 @@
             </graphicsAlgorithm>
           </connectionDecorators>
         </connections>
-        <connections xsi:type="yest:SequenceFlowConnection" visible="true" active="true" start="//@subFolders.1/@testElements.2/@diagram/@children.6/@anchors.0" end="//@subFolders.1/@testElements.2/@diagram/@children.5/@anchors.0" sequenceFlow="5IfkllqMxtmKyiSEpRn5TaWdlbkRKKkm">
+        <connections xsi:type="yest:SequenceFlowConnection" visible="true" active="true" start="//@subFolders.1/@testElements.2/@diagram/@children.0/@anchors.0" end="//@subFolders.1/@testElements.2/@diagram/@children.6/@anchors.0" sequenceFlow="2h3zN2Fw4sfpQai78d5n35jJNHdIVeIw">
           <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@subFolders.1/@testElements.2/@diagram/@colors.2" lineWidth="1" lineStyle="UNSPECIFIED"/>
-          <link businessObjects="5IfkllqMxtmKyiSEpRn5TaWdlbkRKKkm"/>
+          <link businessObjects="2h3zN2Fw4sfpQai78d5n35jJNHdIVeIw"/>
           <connectionDecorators visible="true" locationRelative="true" location="1.0">
             <graphicsAlgorithm xsi:type="al:Polygon" background="//@subFolders.1/@testElements.2/@diagram/@colors.2" foreground="//@subFolders.1/@testElements.2/@diagram/@colors.2" lineWidth="1" filled="true" transparency="0.0">
               <points x="-6" y="3"/>
@@ -2177,20 +2259,9 @@
             </graphicsAlgorithm>
           </connectionDecorators>
         </connections>
-        <connections xsi:type="yest:SequenceFlowConnection" visible="true" active="true" start="//@subFolders.1/@testElements.2/@diagram/@children.0/@anchors.0" end="//@subFolders.1/@testElements.2/@diagram/@children.7/@anchors.0" sequenceFlow="WZdIOVo4yAmyayTp00Bzx9mTZyPJZIHX">
+        <connections xsi:type="yest:SequenceFlowConnection" visible="true" active="true" start="//@subFolders.1/@testElements.2/@diagram/@children.6/@anchors.0" end="//@subFolders.1/@testElements.2/@diagram/@children.2/@anchors.0" sequenceFlow="wiYH5lJHltFwVhq28By9kt8k7aIUyBr7">
           <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@subFolders.1/@testElements.2/@diagram/@colors.2" lineWidth="1" lineStyle="UNSPECIFIED"/>
-          <link businessObjects="WZdIOVo4yAmyayTp00Bzx9mTZyPJZIHX"/>
-          <connectionDecorators visible="true" locationRelative="true" location="1.0">
-            <graphicsAlgorithm xsi:type="al:Polygon" background="//@subFolders.1/@testElements.2/@diagram/@colors.2" foreground="//@subFolders.1/@testElements.2/@diagram/@colors.2" lineWidth="1" filled="true" transparency="0.0">
-              <points x="-6" y="3"/>
-              <points x="1"/>
-              <points x="-6" y="-3"/>
-            </graphicsAlgorithm>
-          </connectionDecorators>
-        </connections>
-        <connections xsi:type="yest:SequenceFlowConnection" visible="true" active="true" start="//@subFolders.1/@testElements.2/@diagram/@children.7/@anchors.0" end="//@subFolders.1/@testElements.2/@diagram/@children.2/@anchors.0" sequenceFlow="KgLaZO79clb17290cLBV2Bx7i3Id1d7A">
-          <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@subFolders.1/@testElements.2/@diagram/@colors.2" lineWidth="1" lineStyle="UNSPECIFIED"/>
-          <link businessObjects="KgLaZO79clb17290cLBV2Bx7i3Id1d7A"/>
+          <link businessObjects="wiYH5lJHltFwVhq28By9kt8k7aIUyBr7"/>
           <connectionDecorators visible="true" locationRelative="true" location="1.0">
             <graphicsAlgorithm xsi:type="al:Polygon" background="//@subFolders.1/@testElements.2/@diagram/@colors.2" foreground="//@subFolders.1/@testElements.2/@diagram/@colors.2" lineWidth="1" filled="true" transparency="0.0">
               <points x="-6" y="3"/>
@@ -2303,13 +2374,13 @@
       </expectedResult>
     </highLevelStep>
   </testElements>
-  <testElements xsi:type="yest:TestOperation" id="vfbSQBQMenT9lUlhuys52tdreTHg3c0f">
+  <testElements xsi:type="yest:TestOperation" id="KuPjboR1if1VyGPmUNzLEDr0iNvn9fUT">
     <highLevelStep>
       <action>
         <stepElements xsi:type="yest:StepText" content="Se connecter à SeS"/>
       </action>
       <expectedResult>
-        <stepElements xsi:type="yest:StepText" content="U1 modifie"/>
+        <stepElements xsi:type="yest:StepText" content="U1 modifie encore"/>
       </expectedResult>
     </highLevelStep>
   </testElements>
